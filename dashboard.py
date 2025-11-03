@@ -10,6 +10,107 @@ import streamlit as st
 st.set_page_config(page_title="FinSight AI — SaaS Variance Dashboard", page_icon="👁️", layout="wide")
 
 # -------------------------------------------------------------------
+# THEME + BRAND CSS
+# -------------------------------------------------------------------
+st.markdown("""
+<style>
+/* --- PAGE LAYOUT --- */
+section.main > div {
+    padding-top: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #F5F1E8; /* Cream main background */
+}
+
+/* --- SIDEBAR --- */
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF !important; /* Clean white sidebar */
+    border-right: 1px solid rgba(44,62,42,0.08);
+}
+[data-testid="stSidebar"] .stMarkdown {
+    color: #2C3E2A !important;
+}
+[data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
+    color: #2C3E2A !important;
+}
+button[kind="primary"] {
+    background-color: #2C3E2A !important;
+    color: #FFFFFF !important;
+    border-radius: 8px;
+}
+
+/* --- KPI CARDS --- */
+.finsight-kpi {
+    padding: 1rem 1.25rem;
+    border-radius: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(44,62,42,0.10);
+    box-shadow: 0 1px 4px rgba(44,62,42,0.08);
+    color: #2C3E2A;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.finsight-kpi:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 6px rgba(44,62,42,0.12);
+}
+.finsight-kpi h3 {
+    margin: 0 0 .35rem 0;
+    font-size: 1.05rem;
+    letter-spacing: .2px;
+    font-weight: 700;
+    color: #2C3E2A;
+}
+.finsight-kpi .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.finsight-kpi .lbl {
+    font-size: .85rem;
+    opacity: .75;
+    color: #2C3E2A;
+}
+.finsight-kpi .num {
+    font-weight: 800;
+    font-size: 1.15rem;
+    color: #2C3E2A;
+}
+.good { color: #2C6E49; }  /* Success green */
+.bad { color: #C0392B; }   /* Variance red */
+
+/* --- TABLE + HEADERS --- */
+thead tr th {
+    background-color: #F5F1E8 !important;
+    color: #2C3E2A !important;
+    font-weight: 700 !important;
+}
+tbody tr {
+    color: #2C3E2A !important;
+    font-size: 0.9rem;
+}
+
+/* --- DOWNLOAD BUTTONS --- */
+.stDownloadButton > button {
+    background-color: #2C3E2A !important;
+    color: #FFFFFF !important;
+    border-radius: 8px !important;
+    padding: 0.4rem 1rem !important;
+    border: none !important;
+}
+.stDownloadButton > button:hover {
+    background-color: #1E2D1B !important;
+}
+
+/* --- EXPANDER + DETAILS --- */
+.streamlit-expanderHeader {
+    background-color: #FFFFFF !important;
+    color: #2C3E2A !important;
+    font-weight: 600 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+# -------------------------------------------------------------------
 # CONSTANTS
 # -------------------------------------------------------------------
 DATA_PATH = Path(__file__).parent / "data" / "demo_finance.csv"
