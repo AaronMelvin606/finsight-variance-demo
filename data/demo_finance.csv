@@ -1,0 +1,1345 @@
+Date,FY,Period,Entity,Department,Category,Account,CostType,DataType,Amount,Currency
+2025-05-31,FY25,2025-05,UK,Sales,Cost of Sales,5xxx,Direct,Budget,56851.2,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Cost of Sales,5xxx,Direct,Actual,57371.87,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8121.6,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8195.98,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,24364.8,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,24587.95,GBP
+2025-05-31,FY25,2025-05,UK,Product,Cost of Sales,5xxx,Direct,Budget,16243.2,GBP
+2025-05-31,FY25,2025-05,UK,Product,Cost of Sales,5xxx,Direct,Actual,16391.96,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,24364.8,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,24587.95,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,11370.24,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,11474.37,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Cost of Sales,5xxx,Direct,Budget,12994.56,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Cost of Sales,5xxx,Direct,Actual,13113.57,GBP
+2025-05-31,FY25,2025-05,UK,HR,Cost of Sales,5xxx,Direct,Budget,8121.6,GBP
+2025-05-31,FY25,2025-05,UK,HR,Cost of Sales,5xxx,Direct,Actual,8195.98,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Marketing,5xxx,Indirect,Budget,37900.8,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Marketing,5xxx,Indirect,Actual,36859.73,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Marketing,5xxx,Indirect,Budget,5414.4,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Marketing,5xxx,Indirect,Actual,5265.68,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Marketing,5xxx,Indirect,Budget,16243.2,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Marketing,5xxx,Indirect,Actual,15797.03,GBP
+2025-05-31,FY25,2025-05,UK,Product,Marketing,5xxx,Indirect,Budget,10828.8,GBP
+2025-05-31,FY25,2025-05,UK,Product,Marketing,5xxx,Indirect,Actual,10531.35,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Marketing,5xxx,Indirect,Budget,16243.2,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Marketing,5xxx,Indirect,Actual,15797.03,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Marketing,5xxx,Indirect,Budget,7580.16,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Marketing,5xxx,Indirect,Actual,7371.95,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Marketing,5xxx,Indirect,Budget,8663.04,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Marketing,5xxx,Indirect,Actual,8425.08,GBP
+2025-05-31,FY25,2025-05,UK,HR,Marketing,5xxx,Indirect,Budget,5414.4,GBP
+2025-05-31,FY25,2025-05,UK,HR,Marketing,5xxx,Indirect,Actual,5265.68,GBP
+2025-05-31,FY25,2025-05,UK,Sales,IT Services,5xxx,Indirect,Budget,12633.6,GBP
+2025-05-31,FY25,2025-05,UK,Sales,IT Services,5xxx,Indirect,Actual,12879.05,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,IT Services,5xxx,Indirect,Budget,1804.8,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,IT Services,5xxx,Indirect,Actual,1839.86,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5414.4,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5519.59,GBP
+2025-05-31,FY25,2025-05,UK,Product,IT Services,5xxx,Indirect,Budget,3609.6,GBP
+2025-05-31,FY25,2025-05,UK,Product,IT Services,5xxx,Indirect,Actual,3679.73,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,IT Services,5xxx,Indirect,Budget,5414.4,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,IT Services,5xxx,Indirect,Actual,5519.59,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2526.72,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2575.81,GBP
+2025-05-31,FY25,2025-05,UK,Finance,IT Services,5xxx,Indirect,Budget,2887.68,GBP
+2025-05-31,FY25,2025-05,UK,Finance,IT Services,5xxx,Indirect,Actual,2943.78,GBP
+2025-05-31,FY25,2025-05,UK,HR,IT Services,5xxx,Indirect,Budget,1804.8,GBP
+2025-05-31,FY25,2025-05,UK,HR,IT Services,5xxx,Indirect,Actual,1839.86,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Professional Services,5xxx,Direct,Budget,12633.6,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Professional Services,5xxx,Direct,Actual,12675.31,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Professional Services,5xxx,Direct,Budget,1804.8,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Professional Services,5xxx,Direct,Actual,1810.76,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5414.4,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5432.28,GBP
+2025-05-31,FY25,2025-05,UK,Product,Professional Services,5xxx,Direct,Budget,3609.6,GBP
+2025-05-31,FY25,2025-05,UK,Product,Professional Services,5xxx,Direct,Actual,3621.52,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Professional Services,5xxx,Direct,Budget,5414.4,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Professional Services,5xxx,Direct,Actual,5432.28,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2526.72,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2535.06,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Professional Services,5xxx,Direct,Budget,2887.68,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Professional Services,5xxx,Direct,Actual,2897.21,GBP
+2025-05-31,FY25,2025-05,UK,HR,Professional Services,5xxx,Direct,Budget,1804.8,GBP
+2025-05-31,FY25,2025-05,UK,HR,Professional Services,5xxx,Direct,Actual,1810.76,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Payroll,5xxx,Indirect,Budget,58956.8,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Payroll,5xxx,Indirect,Actual,58954.11,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Payroll,5xxx,Indirect,Budget,8422.4,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Payroll,5xxx,Indirect,Actual,8422.02,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Payroll,5xxx,Indirect,Budget,25267.2,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Payroll,5xxx,Indirect,Actual,25266.05,GBP
+2025-05-31,FY25,2025-05,UK,Product,Payroll,5xxx,Indirect,Budget,16844.8,GBP
+2025-05-31,FY25,2025-05,UK,Product,Payroll,5xxx,Indirect,Actual,16844.03,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Payroll,5xxx,Indirect,Budget,25267.2,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Payroll,5xxx,Indirect,Actual,25266.05,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Payroll,5xxx,Indirect,Budget,11791.36,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Payroll,5xxx,Indirect,Actual,11790.82,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Payroll,5xxx,Indirect,Budget,13475.84,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Payroll,5xxx,Indirect,Actual,13475.23,GBP
+2025-05-31,FY25,2025-05,UK,HR,Payroll,5xxx,Indirect,Budget,8422.4,GBP
+2025-05-31,FY25,2025-05,UK,HR,Payroll,5xxx,Indirect,Actual,8422.02,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Travel,5xxx,Indirect,Budget,2105.6,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Travel,5xxx,Indirect,Actual,2146.83,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Travel,5xxx,Indirect,Budget,300.8,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Travel,5xxx,Indirect,Actual,306.69,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Travel,5xxx,Indirect,Budget,902.4,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Travel,5xxx,Indirect,Actual,920.07,GBP
+2025-05-31,FY25,2025-05,UK,Product,Travel,5xxx,Indirect,Budget,601.6,GBP
+2025-05-31,FY25,2025-05,UK,Product,Travel,5xxx,Indirect,Actual,613.38,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Travel,5xxx,Indirect,Budget,902.4,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Travel,5xxx,Indirect,Actual,920.07,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Travel,5xxx,Indirect,Budget,421.12,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Travel,5xxx,Indirect,Actual,429.37,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Travel,5xxx,Indirect,Budget,481.28,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Travel,5xxx,Indirect,Actual,490.7,GBP
+2025-05-31,FY25,2025-05,UK,HR,Travel,5xxx,Indirect,Budget,300.8,GBP
+2025-05-31,FY25,2025-05,UK,HR,Travel,5xxx,Indirect,Actual,306.69,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2105.6,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2082.42,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,300.8,GBP
+2025-05-31,FY25,2025-05,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,297.49,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,902.4,GBP
+2025-05-31,FY25,2025-05,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,892.46,GBP
+2025-05-31,FY25,2025-05,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,601.6,GBP
+2025-05-31,FY25,2025-05,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,594.98,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,902.4,GBP
+2025-05-31,FY25,2025-05,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,892.46,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,421.12,GBP
+2025-05-31,FY25,2025-05,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,416.48,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,481.28,GBP
+2025-05-31,FY25,2025-05,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,475.98,GBP
+2025-05-31,FY25,2025-05,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,300.8,GBP
+2025-05-31,FY25,2025-05,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,297.49,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Cost of Sales,5xxx,Direct,Budget,58060.8,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Cost of Sales,5xxx,Direct,Actual,59415.6,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8294.4,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8487.94,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,24883.2,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,25463.83,GBP
+2025-06-30,FY25,2025-06,UK,Product,Cost of Sales,5xxx,Direct,Budget,16588.8,GBP
+2025-06-30,FY25,2025-06,UK,Product,Cost of Sales,5xxx,Direct,Actual,16975.89,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,24883.2,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,25463.83,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,11612.16,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,11883.12,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Cost of Sales,5xxx,Direct,Budget,13271.04,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Cost of Sales,5xxx,Direct,Actual,13580.71,GBP
+2025-06-30,FY25,2025-06,UK,HR,Cost of Sales,5xxx,Direct,Budget,8294.4,GBP
+2025-06-30,FY25,2025-06,UK,HR,Cost of Sales,5xxx,Direct,Actual,8487.94,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Marketing,5xxx,Indirect,Budget,38707.2,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Marketing,5xxx,Indirect,Actual,37965.8,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Marketing,5xxx,Indirect,Budget,5529.6,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Marketing,5xxx,Indirect,Actual,5423.69,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Marketing,5xxx,Indirect,Budget,16588.8,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Marketing,5xxx,Indirect,Actual,16271.06,GBP
+2025-06-30,FY25,2025-06,UK,Product,Marketing,5xxx,Indirect,Budget,11059.2,GBP
+2025-06-30,FY25,2025-06,UK,Product,Marketing,5xxx,Indirect,Actual,10847.37,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Marketing,5xxx,Indirect,Budget,16588.8,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Marketing,5xxx,Indirect,Actual,16271.06,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Marketing,5xxx,Indirect,Budget,7741.44,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Marketing,5xxx,Indirect,Actual,7593.16,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Marketing,5xxx,Indirect,Budget,8847.36,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Marketing,5xxx,Indirect,Actual,8677.9,GBP
+2025-06-30,FY25,2025-06,UK,HR,Marketing,5xxx,Indirect,Budget,5529.6,GBP
+2025-06-30,FY25,2025-06,UK,HR,Marketing,5xxx,Indirect,Actual,5423.69,GBP
+2025-06-30,FY25,2025-06,UK,Sales,IT Services,5xxx,Indirect,Budget,12902.4,GBP
+2025-06-30,FY25,2025-06,UK,Sales,IT Services,5xxx,Indirect,Actual,12711.18,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,IT Services,5xxx,Indirect,Budget,1843.2,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,IT Services,5xxx,Indirect,Actual,1815.88,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5529.6,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5447.65,GBP
+2025-06-30,FY25,2025-06,UK,Product,IT Services,5xxx,Indirect,Budget,3686.4,GBP
+2025-06-30,FY25,2025-06,UK,Product,IT Services,5xxx,Indirect,Actual,3631.77,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,IT Services,5xxx,Indirect,Budget,5529.6,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,IT Services,5xxx,Indirect,Actual,5447.65,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2580.48,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2542.24,GBP
+2025-06-30,FY25,2025-06,UK,Finance,IT Services,5xxx,Indirect,Budget,2949.12,GBP
+2025-06-30,FY25,2025-06,UK,Finance,IT Services,5xxx,Indirect,Actual,2905.41,GBP
+2025-06-30,FY25,2025-06,UK,HR,IT Services,5xxx,Indirect,Budget,1843.2,GBP
+2025-06-30,FY25,2025-06,UK,HR,IT Services,5xxx,Indirect,Actual,1815.88,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Professional Services,5xxx,Direct,Budget,12902.4,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Professional Services,5xxx,Direct,Actual,12542.87,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Professional Services,5xxx,Direct,Budget,1843.2,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Professional Services,5xxx,Direct,Actual,1791.84,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5529.6,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5375.51,GBP
+2025-06-30,FY25,2025-06,UK,Product,Professional Services,5xxx,Direct,Budget,3686.4,GBP
+2025-06-30,FY25,2025-06,UK,Product,Professional Services,5xxx,Direct,Actual,3583.68,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Professional Services,5xxx,Direct,Budget,5529.6,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Professional Services,5xxx,Direct,Actual,5375.51,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2580.48,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2508.57,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Professional Services,5xxx,Direct,Budget,2949.12,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Professional Services,5xxx,Direct,Actual,2866.94,GBP
+2025-06-30,FY25,2025-06,UK,HR,Professional Services,5xxx,Direct,Budget,1843.2,GBP
+2025-06-30,FY25,2025-06,UK,HR,Professional Services,5xxx,Direct,Actual,1791.84,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Payroll,5xxx,Indirect,Budget,60211.2,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Payroll,5xxx,Indirect,Actual,61448.91,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Payroll,5xxx,Indirect,Budget,8601.6,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Payroll,5xxx,Indirect,Actual,8778.42,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Payroll,5xxx,Indirect,Budget,25804.8,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Payroll,5xxx,Indirect,Actual,26335.25,GBP
+2025-06-30,FY25,2025-06,UK,Product,Payroll,5xxx,Indirect,Budget,17203.2,GBP
+2025-06-30,FY25,2025-06,UK,Product,Payroll,5xxx,Indirect,Actual,17556.83,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Payroll,5xxx,Indirect,Budget,25804.8,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Payroll,5xxx,Indirect,Actual,26335.25,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Payroll,5xxx,Indirect,Budget,12042.24,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Payroll,5xxx,Indirect,Actual,12289.78,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Payroll,5xxx,Indirect,Budget,13762.56,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Payroll,5xxx,Indirect,Actual,14045.47,GBP
+2025-06-30,FY25,2025-06,UK,HR,Payroll,5xxx,Indirect,Budget,8601.6,GBP
+2025-06-30,FY25,2025-06,UK,HR,Payroll,5xxx,Indirect,Actual,8778.42,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Travel,5xxx,Indirect,Budget,2150.4,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Travel,5xxx,Indirect,Actual,2203.98,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Travel,5xxx,Indirect,Budget,307.2,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Travel,5xxx,Indirect,Actual,314.85,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Travel,5xxx,Indirect,Budget,921.6,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Travel,5xxx,Indirect,Actual,944.56,GBP
+2025-06-30,FY25,2025-06,UK,Product,Travel,5xxx,Indirect,Budget,614.4,GBP
+2025-06-30,FY25,2025-06,UK,Product,Travel,5xxx,Indirect,Actual,629.71,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Travel,5xxx,Indirect,Budget,921.6,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Travel,5xxx,Indirect,Actual,944.56,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Travel,5xxx,Indirect,Budget,430.08,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Travel,5xxx,Indirect,Actual,440.8,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Travel,5xxx,Indirect,Budget,491.52,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Travel,5xxx,Indirect,Actual,503.77,GBP
+2025-06-30,FY25,2025-06,UK,HR,Travel,5xxx,Indirect,Budget,307.2,GBP
+2025-06-30,FY25,2025-06,UK,HR,Travel,5xxx,Indirect,Actual,314.85,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2150.4,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2209.64,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,307.2,GBP
+2025-06-30,FY25,2025-06,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,315.66,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,921.6,GBP
+2025-06-30,FY25,2025-06,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,946.99,GBP
+2025-06-30,FY25,2025-06,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,614.4,GBP
+2025-06-30,FY25,2025-06,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,631.33,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,921.6,GBP
+2025-06-30,FY25,2025-06,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,946.99,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,430.08,GBP
+2025-06-30,FY25,2025-06,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,441.93,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,491.52,GBP
+2025-06-30,FY25,2025-06,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,505.06,GBP
+2025-06-30,FY25,2025-06,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,307.2,GBP
+2025-06-30,FY25,2025-06,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,315.66,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Cost of Sales,5xxx,Direct,Budget,59270.4,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Cost of Sales,5xxx,Direct,Actual,60996.04,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8467.2,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8713.72,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,25401.6,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,26141.16,GBP
+2025-07-31,FY25,2025-07,UK,Product,Cost of Sales,5xxx,Direct,Budget,16934.4,GBP
+2025-07-31,FY25,2025-07,UK,Product,Cost of Sales,5xxx,Direct,Actual,17427.44,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,25401.6,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,26141.16,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,11854.08,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,12199.21,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Cost of Sales,5xxx,Direct,Budget,13547.52,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Cost of Sales,5xxx,Direct,Actual,13941.95,GBP
+2025-07-31,FY25,2025-07,UK,HR,Cost of Sales,5xxx,Direct,Budget,8467.2,GBP
+2025-07-31,FY25,2025-07,UK,HR,Cost of Sales,5xxx,Direct,Actual,8713.72,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Marketing,5xxx,Indirect,Budget,39513.6,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Marketing,5xxx,Indirect,Actual,39973.53,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Marketing,5xxx,Indirect,Budget,5644.8,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Marketing,5xxx,Indirect,Actual,5710.5,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Marketing,5xxx,Indirect,Budget,16934.4,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Marketing,5xxx,Indirect,Actual,17131.51,GBP
+2025-07-31,FY25,2025-07,UK,Product,Marketing,5xxx,Indirect,Budget,11289.6,GBP
+2025-07-31,FY25,2025-07,UK,Product,Marketing,5xxx,Indirect,Actual,11421.01,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Marketing,5xxx,Indirect,Budget,16934.4,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Marketing,5xxx,Indirect,Actual,17131.51,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Marketing,5xxx,Indirect,Budget,7902.72,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Marketing,5xxx,Indirect,Actual,7994.71,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Marketing,5xxx,Indirect,Budget,9031.68,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Marketing,5xxx,Indirect,Actual,9136.81,GBP
+2025-07-31,FY25,2025-07,UK,HR,Marketing,5xxx,Indirect,Budget,5644.8,GBP
+2025-07-31,FY25,2025-07,UK,HR,Marketing,5xxx,Indirect,Actual,5710.5,GBP
+2025-07-31,FY25,2025-07,UK,Sales,IT Services,5xxx,Indirect,Budget,13171.2,GBP
+2025-07-31,FY25,2025-07,UK,Sales,IT Services,5xxx,Indirect,Actual,13455.73,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,IT Services,5xxx,Indirect,Budget,1881.6,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,IT Services,5xxx,Indirect,Actual,1922.25,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5644.8,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5766.74,GBP
+2025-07-31,FY25,2025-07,UK,Product,IT Services,5xxx,Indirect,Budget,3763.2,GBP
+2025-07-31,FY25,2025-07,UK,Product,IT Services,5xxx,Indirect,Actual,3844.49,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,IT Services,5xxx,Indirect,Budget,5644.8,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,IT Services,5xxx,Indirect,Actual,5766.74,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2634.24,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2691.15,GBP
+2025-07-31,FY25,2025-07,UK,Finance,IT Services,5xxx,Indirect,Budget,3010.56,GBP
+2025-07-31,FY25,2025-07,UK,Finance,IT Services,5xxx,Indirect,Actual,3075.6,GBP
+2025-07-31,FY25,2025-07,UK,HR,IT Services,5xxx,Indirect,Budget,1881.6,GBP
+2025-07-31,FY25,2025-07,UK,HR,IT Services,5xxx,Indirect,Actual,1922.25,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Professional Services,5xxx,Direct,Budget,13171.2,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Professional Services,5xxx,Direct,Actual,13396.09,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Professional Services,5xxx,Direct,Budget,1881.6,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Professional Services,5xxx,Direct,Actual,1913.73,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5644.8,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5741.18,GBP
+2025-07-31,FY25,2025-07,UK,Product,Professional Services,5xxx,Direct,Budget,3763.2,GBP
+2025-07-31,FY25,2025-07,UK,Product,Professional Services,5xxx,Direct,Actual,3827.45,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Professional Services,5xxx,Direct,Budget,5644.8,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Professional Services,5xxx,Direct,Actual,5741.18,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2634.24,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2679.22,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Professional Services,5xxx,Direct,Budget,3010.56,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Professional Services,5xxx,Direct,Actual,3061.96,GBP
+2025-07-31,FY25,2025-07,UK,HR,Professional Services,5xxx,Direct,Budget,1881.6,GBP
+2025-07-31,FY25,2025-07,UK,HR,Professional Services,5xxx,Direct,Actual,1913.73,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Payroll,5xxx,Indirect,Budget,61465.6,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Payroll,5xxx,Indirect,Actual,61858.2,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Payroll,5xxx,Indirect,Budget,8780.8,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Payroll,5xxx,Indirect,Actual,8836.89,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Payroll,5xxx,Indirect,Budget,26342.4,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Payroll,5xxx,Indirect,Actual,26510.66,GBP
+2025-07-31,FY25,2025-07,UK,Product,Payroll,5xxx,Indirect,Budget,17561.6,GBP
+2025-07-31,FY25,2025-07,UK,Product,Payroll,5xxx,Indirect,Actual,17673.77,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Payroll,5xxx,Indirect,Budget,26342.4,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Payroll,5xxx,Indirect,Actual,26510.66,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Payroll,5xxx,Indirect,Budget,12293.12,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Payroll,5xxx,Indirect,Actual,12371.64,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Payroll,5xxx,Indirect,Budget,14049.28,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Payroll,5xxx,Indirect,Actual,14139.02,GBP
+2025-07-31,FY25,2025-07,UK,HR,Payroll,5xxx,Indirect,Budget,8780.8,GBP
+2025-07-31,FY25,2025-07,UK,HR,Payroll,5xxx,Indirect,Actual,8836.89,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Travel,5xxx,Indirect,Budget,2195.2,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Travel,5xxx,Indirect,Actual,2219.52,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Travel,5xxx,Indirect,Budget,313.6,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Travel,5xxx,Indirect,Actual,317.07,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Travel,5xxx,Indirect,Budget,940.8,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Travel,5xxx,Indirect,Actual,951.22,GBP
+2025-07-31,FY25,2025-07,UK,Product,Travel,5xxx,Indirect,Budget,627.2,GBP
+2025-07-31,FY25,2025-07,UK,Product,Travel,5xxx,Indirect,Actual,634.15,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Travel,5xxx,Indirect,Budget,940.8,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Travel,5xxx,Indirect,Actual,951.22,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Travel,5xxx,Indirect,Budget,439.04,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Travel,5xxx,Indirect,Actual,443.9,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Travel,5xxx,Indirect,Budget,501.76,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Travel,5xxx,Indirect,Actual,507.32,GBP
+2025-07-31,FY25,2025-07,UK,HR,Travel,5xxx,Indirect,Budget,313.6,GBP
+2025-07-31,FY25,2025-07,UK,HR,Travel,5xxx,Indirect,Actual,317.07,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2195.2,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2133.65,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,313.6,GBP
+2025-07-31,FY25,2025-07,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,304.81,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,940.8,GBP
+2025-07-31,FY25,2025-07,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,914.42,GBP
+2025-07-31,FY25,2025-07,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,627.2,GBP
+2025-07-31,FY25,2025-07,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,609.62,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,940.8,GBP
+2025-07-31,FY25,2025-07,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,914.42,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,439.04,GBP
+2025-07-31,FY25,2025-07,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,426.73,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,501.76,GBP
+2025-07-31,FY25,2025-07,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,487.69,GBP
+2025-07-31,FY25,2025-07,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,313.6,GBP
+2025-07-31,FY25,2025-07,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,304.81,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Cost of Sales,5xxx,Direct,Budget,60480.0,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Cost of Sales,5xxx,Direct,Actual,60295.34,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8640.0,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8613.62,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,25920.0,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,25840.86,GBP
+2025-08-31,FY25,2025-08,UK,Product,Cost of Sales,5xxx,Direct,Budget,17280.0,GBP
+2025-08-31,FY25,2025-08,UK,Product,Cost of Sales,5xxx,Direct,Actual,17227.24,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,25920.0,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,25840.86,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,12096.0,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,12059.07,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Cost of Sales,5xxx,Direct,Budget,13824.0,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Cost of Sales,5xxx,Direct,Actual,13781.79,GBP
+2025-08-31,FY25,2025-08,UK,HR,Cost of Sales,5xxx,Direct,Budget,8640.0,GBP
+2025-08-31,FY25,2025-08,UK,HR,Cost of Sales,5xxx,Direct,Actual,8613.62,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Marketing,5xxx,Indirect,Budget,40320.0,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Marketing,5xxx,Indirect,Actual,39913.26,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Marketing,5xxx,Indirect,Budget,5760.0,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Marketing,5xxx,Indirect,Actual,5701.89,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Marketing,5xxx,Indirect,Budget,17280.0,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Marketing,5xxx,Indirect,Actual,17105.68,GBP
+2025-08-31,FY25,2025-08,UK,Product,Marketing,5xxx,Indirect,Budget,11520.0,GBP
+2025-08-31,FY25,2025-08,UK,Product,Marketing,5xxx,Indirect,Actual,11403.79,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Marketing,5xxx,Indirect,Budget,17280.0,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Marketing,5xxx,Indirect,Actual,17105.68,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Marketing,5xxx,Indirect,Budget,8064.0,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Marketing,5xxx,Indirect,Actual,7982.65,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Marketing,5xxx,Indirect,Budget,9216.0,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Marketing,5xxx,Indirect,Actual,9123.03,GBP
+2025-08-31,FY25,2025-08,UK,HR,Marketing,5xxx,Indirect,Budget,5760.0,GBP
+2025-08-31,FY25,2025-08,UK,HR,Marketing,5xxx,Indirect,Actual,5701.89,GBP
+2025-08-31,FY25,2025-08,UK,Sales,IT Services,5xxx,Indirect,Budget,13440.0,GBP
+2025-08-31,FY25,2025-08,UK,Sales,IT Services,5xxx,Indirect,Actual,13313.06,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,IT Services,5xxx,Indirect,Budget,1920.0,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,IT Services,5xxx,Indirect,Actual,1901.87,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5760.0,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5705.6,GBP
+2025-08-31,FY25,2025-08,UK,Product,IT Services,5xxx,Indirect,Budget,3840.0,GBP
+2025-08-31,FY25,2025-08,UK,Product,IT Services,5xxx,Indirect,Actual,3803.73,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,IT Services,5xxx,Indirect,Budget,5760.0,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,IT Services,5xxx,Indirect,Actual,5705.6,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2688.0,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2662.61,GBP
+2025-08-31,FY25,2025-08,UK,Finance,IT Services,5xxx,Indirect,Budget,3072.0,GBP
+2025-08-31,FY25,2025-08,UK,Finance,IT Services,5xxx,Indirect,Actual,3042.99,GBP
+2025-08-31,FY25,2025-08,UK,HR,IT Services,5xxx,Indirect,Budget,1920.0,GBP
+2025-08-31,FY25,2025-08,UK,HR,IT Services,5xxx,Indirect,Actual,1901.87,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Professional Services,5xxx,Direct,Budget,13440.0,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Professional Services,5xxx,Direct,Actual,13370.66,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Professional Services,5xxx,Direct,Budget,1920.0,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Professional Services,5xxx,Direct,Actual,1910.09,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5760.0,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5730.28,GBP
+2025-08-31,FY25,2025-08,UK,Product,Professional Services,5xxx,Direct,Budget,3840.0,GBP
+2025-08-31,FY25,2025-08,UK,Product,Professional Services,5xxx,Direct,Actual,3820.19,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Professional Services,5xxx,Direct,Budget,5760.0,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Professional Services,5xxx,Direct,Actual,5730.28,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2688.0,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2674.13,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Professional Services,5xxx,Direct,Budget,3072.0,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Professional Services,5xxx,Direct,Actual,3056.15,GBP
+2025-08-31,FY25,2025-08,UK,HR,Professional Services,5xxx,Direct,Budget,1920.0,GBP
+2025-08-31,FY25,2025-08,UK,HR,Professional Services,5xxx,Direct,Actual,1910.09,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Payroll,5xxx,Indirect,Budget,62720.0,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Payroll,5xxx,Indirect,Actual,61288.85,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Payroll,5xxx,Indirect,Budget,8960.0,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Payroll,5xxx,Indirect,Actual,8755.55,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Payroll,5xxx,Indirect,Budget,26880.0,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Payroll,5xxx,Indirect,Actual,26266.65,GBP
+2025-08-31,FY25,2025-08,UK,Product,Payroll,5xxx,Indirect,Budget,17920.0,GBP
+2025-08-31,FY25,2025-08,UK,Product,Payroll,5xxx,Indirect,Actual,17511.1,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Payroll,5xxx,Indirect,Budget,26880.0,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Payroll,5xxx,Indirect,Actual,26266.65,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Payroll,5xxx,Indirect,Budget,12544.0,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Payroll,5xxx,Indirect,Actual,12257.77,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Payroll,5xxx,Indirect,Budget,14336.0,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Payroll,5xxx,Indirect,Actual,14008.88,GBP
+2025-08-31,FY25,2025-08,UK,HR,Payroll,5xxx,Indirect,Budget,8960.0,GBP
+2025-08-31,FY25,2025-08,UK,HR,Payroll,5xxx,Indirect,Actual,8755.55,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Travel,5xxx,Indirect,Budget,2240.0,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Travel,5xxx,Indirect,Actual,2251.24,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Travel,5xxx,Indirect,Budget,320.0,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Travel,5xxx,Indirect,Actual,321.61,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Travel,5xxx,Indirect,Budget,960.0,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Travel,5xxx,Indirect,Actual,964.82,GBP
+2025-08-31,FY25,2025-08,UK,Product,Travel,5xxx,Indirect,Budget,640.0,GBP
+2025-08-31,FY25,2025-08,UK,Product,Travel,5xxx,Indirect,Actual,643.21,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Travel,5xxx,Indirect,Budget,960.0,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Travel,5xxx,Indirect,Actual,964.82,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Travel,5xxx,Indirect,Budget,448.0,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Travel,5xxx,Indirect,Actual,450.25,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Travel,5xxx,Indirect,Budget,512.0,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Travel,5xxx,Indirect,Actual,514.57,GBP
+2025-08-31,FY25,2025-08,UK,HR,Travel,5xxx,Indirect,Budget,320.0,GBP
+2025-08-31,FY25,2025-08,UK,HR,Travel,5xxx,Indirect,Actual,321.61,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2240.0,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2251.81,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,320.0,GBP
+2025-08-31,FY25,2025-08,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,321.69,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,960.0,GBP
+2025-08-31,FY25,2025-08,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,965.06,GBP
+2025-08-31,FY25,2025-08,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,640.0,GBP
+2025-08-31,FY25,2025-08,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,643.37,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,960.0,GBP
+2025-08-31,FY25,2025-08,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,965.06,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,448.0,GBP
+2025-08-31,FY25,2025-08,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,450.36,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,512.0,GBP
+2025-08-31,FY25,2025-08,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,514.7,GBP
+2025-08-31,FY25,2025-08,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,320.0,GBP
+2025-08-31,FY25,2025-08,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,321.69,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Cost of Sales,5xxx,Direct,Budget,61689.6,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Cost of Sales,5xxx,Direct,Actual,59842.36,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8812.8,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8548.91,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,26438.4,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,25646.73,GBP
+2025-09-30,FY25,2025-09,UK,Product,Cost of Sales,5xxx,Direct,Budget,17625.6,GBP
+2025-09-30,FY25,2025-09,UK,Product,Cost of Sales,5xxx,Direct,Actual,17097.82,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,26438.4,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,25646.73,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,12337.92,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,11968.47,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Cost of Sales,5xxx,Direct,Budget,14100.48,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Cost of Sales,5xxx,Direct,Actual,13678.25,GBP
+2025-09-30,FY25,2025-09,UK,HR,Cost of Sales,5xxx,Direct,Budget,8812.8,GBP
+2025-09-30,FY25,2025-09,UK,HR,Cost of Sales,5xxx,Direct,Actual,8548.91,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Marketing,5xxx,Indirect,Budget,41126.4,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Marketing,5xxx,Indirect,Actual,40786.2,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Marketing,5xxx,Indirect,Budget,5875.2,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Marketing,5xxx,Indirect,Actual,5826.6,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Marketing,5xxx,Indirect,Budget,17625.6,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Marketing,5xxx,Indirect,Actual,17479.8,GBP
+2025-09-30,FY25,2025-09,UK,Product,Marketing,5xxx,Indirect,Budget,11750.4,GBP
+2025-09-30,FY25,2025-09,UK,Product,Marketing,5xxx,Indirect,Actual,11653.2,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Marketing,5xxx,Indirect,Budget,17625.6,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Marketing,5xxx,Indirect,Actual,17479.8,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Marketing,5xxx,Indirect,Budget,8225.28,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Marketing,5xxx,Indirect,Actual,8157.24,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Marketing,5xxx,Indirect,Budget,9400.32,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Marketing,5xxx,Indirect,Actual,9322.56,GBP
+2025-09-30,FY25,2025-09,UK,HR,Marketing,5xxx,Indirect,Budget,5875.2,GBP
+2025-09-30,FY25,2025-09,UK,HR,Marketing,5xxx,Indirect,Actual,5826.6,GBP
+2025-09-30,FY25,2025-09,UK,Sales,IT Services,5xxx,Indirect,Budget,13708.8,GBP
+2025-09-30,FY25,2025-09,UK,Sales,IT Services,5xxx,Indirect,Actual,13732.47,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,IT Services,5xxx,Indirect,Budget,1958.4,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,IT Services,5xxx,Indirect,Actual,1961.78,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5875.2,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5885.34,GBP
+2025-09-30,FY25,2025-09,UK,Product,IT Services,5xxx,Indirect,Budget,3916.8,GBP
+2025-09-30,FY25,2025-09,UK,Product,IT Services,5xxx,Indirect,Actual,3923.56,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,IT Services,5xxx,Indirect,Budget,5875.2,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,IT Services,5xxx,Indirect,Actual,5885.34,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2741.76,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2746.49,GBP
+2025-09-30,FY25,2025-09,UK,Finance,IT Services,5xxx,Indirect,Budget,3133.44,GBP
+2025-09-30,FY25,2025-09,UK,Finance,IT Services,5xxx,Indirect,Actual,3138.85,GBP
+2025-09-30,FY25,2025-09,UK,HR,IT Services,5xxx,Indirect,Budget,1958.4,GBP
+2025-09-30,FY25,2025-09,UK,HR,IT Services,5xxx,Indirect,Actual,1961.78,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Professional Services,5xxx,Direct,Budget,13708.8,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Professional Services,5xxx,Direct,Actual,13422.22,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Professional Services,5xxx,Direct,Budget,1958.4,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Professional Services,5xxx,Direct,Actual,1917.46,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5875.2,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5752.38,GBP
+2025-09-30,FY25,2025-09,UK,Product,Professional Services,5xxx,Direct,Budget,3916.8,GBP
+2025-09-30,FY25,2025-09,UK,Product,Professional Services,5xxx,Direct,Actual,3834.92,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Professional Services,5xxx,Direct,Budget,5875.2,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Professional Services,5xxx,Direct,Actual,5752.38,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2741.76,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2684.44,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Professional Services,5xxx,Direct,Budget,3133.44,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Professional Services,5xxx,Direct,Actual,3067.94,GBP
+2025-09-30,FY25,2025-09,UK,HR,Professional Services,5xxx,Direct,Budget,1958.4,GBP
+2025-09-30,FY25,2025-09,UK,HR,Professional Services,5xxx,Direct,Actual,1917.46,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Payroll,5xxx,Indirect,Budget,63974.4,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Payroll,5xxx,Indirect,Actual,62499.15,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Payroll,5xxx,Indirect,Budget,9139.2,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Payroll,5xxx,Indirect,Actual,8928.45,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Payroll,5xxx,Indirect,Budget,27417.6,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Payroll,5xxx,Indirect,Actual,26785.35,GBP
+2025-09-30,FY25,2025-09,UK,Product,Payroll,5xxx,Indirect,Budget,18278.4,GBP
+2025-09-30,FY25,2025-09,UK,Product,Payroll,5xxx,Indirect,Actual,17856.9,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Payroll,5xxx,Indirect,Budget,27417.6,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Payroll,5xxx,Indirect,Actual,26785.35,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Payroll,5xxx,Indirect,Budget,12794.88,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Payroll,5xxx,Indirect,Actual,12499.83,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Payroll,5xxx,Indirect,Budget,14622.72,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Payroll,5xxx,Indirect,Actual,14285.52,GBP
+2025-09-30,FY25,2025-09,UK,HR,Payroll,5xxx,Indirect,Budget,9139.2,GBP
+2025-09-30,FY25,2025-09,UK,HR,Payroll,5xxx,Indirect,Actual,8928.45,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Travel,5xxx,Indirect,Budget,2284.8,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Travel,5xxx,Indirect,Actual,2325.35,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Travel,5xxx,Indirect,Budget,326.4,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Travel,5xxx,Indirect,Actual,332.19,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Travel,5xxx,Indirect,Budget,979.2,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Travel,5xxx,Indirect,Actual,996.58,GBP
+2025-09-30,FY25,2025-09,UK,Product,Travel,5xxx,Indirect,Budget,652.8,GBP
+2025-09-30,FY25,2025-09,UK,Product,Travel,5xxx,Indirect,Actual,664.39,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Travel,5xxx,Indirect,Budget,979.2,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Travel,5xxx,Indirect,Actual,996.58,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Travel,5xxx,Indirect,Budget,456.96,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Travel,5xxx,Indirect,Actual,465.07,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Travel,5xxx,Indirect,Budget,522.24,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Travel,5xxx,Indirect,Actual,531.51,GBP
+2025-09-30,FY25,2025-09,UK,HR,Travel,5xxx,Indirect,Budget,326.4,GBP
+2025-09-30,FY25,2025-09,UK,HR,Travel,5xxx,Indirect,Actual,332.19,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2284.8,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2221.37,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,326.4,GBP
+2025-09-30,FY25,2025-09,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,317.34,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,979.2,GBP
+2025-09-30,FY25,2025-09,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,952.01,GBP
+2025-09-30,FY25,2025-09,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,652.8,GBP
+2025-09-30,FY25,2025-09,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,634.68,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,979.2,GBP
+2025-09-30,FY25,2025-09,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,952.01,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,456.96,GBP
+2025-09-30,FY25,2025-09,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,444.27,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,522.24,GBP
+2025-09-30,FY25,2025-09,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,507.74,GBP
+2025-09-30,FY25,2025-09,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,326.4,GBP
+2025-09-30,FY25,2025-09,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,317.34,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Cost of Sales,5xxx,Direct,Budget,62294.4,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Cost of Sales,5xxx,Direct,Actual,61410.0,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8899.2,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8772.86,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,26697.6,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,26318.57,GBP
+2025-10-31,FY25,2025-10,UK,Product,Cost of Sales,5xxx,Direct,Budget,17798.4,GBP
+2025-10-31,FY25,2025-10,UK,Product,Cost of Sales,5xxx,Direct,Actual,17545.71,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,26697.6,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,26318.57,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,12458.88,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,12282.0,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Cost of Sales,5xxx,Direct,Budget,14238.72,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Cost of Sales,5xxx,Direct,Actual,14036.57,GBP
+2025-10-31,FY25,2025-10,UK,HR,Cost of Sales,5xxx,Direct,Budget,8899.2,GBP
+2025-10-31,FY25,2025-10,UK,HR,Cost of Sales,5xxx,Direct,Actual,8772.86,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Marketing,5xxx,Indirect,Budget,41529.6,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Marketing,5xxx,Indirect,Actual,40354.78,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Marketing,5xxx,Indirect,Budget,5932.8,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Marketing,5xxx,Indirect,Actual,5764.97,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Marketing,5xxx,Indirect,Budget,17798.4,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Marketing,5xxx,Indirect,Actual,17294.9,GBP
+2025-10-31,FY25,2025-10,UK,Product,Marketing,5xxx,Indirect,Budget,11865.6,GBP
+2025-10-31,FY25,2025-10,UK,Product,Marketing,5xxx,Indirect,Actual,11529.94,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Marketing,5xxx,Indirect,Budget,17798.4,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Marketing,5xxx,Indirect,Actual,17294.9,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Marketing,5xxx,Indirect,Budget,8305.92,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Marketing,5xxx,Indirect,Actual,8070.96,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Marketing,5xxx,Indirect,Budget,9492.48,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Marketing,5xxx,Indirect,Actual,9223.95,GBP
+2025-10-31,FY25,2025-10,UK,HR,Marketing,5xxx,Indirect,Budget,5932.8,GBP
+2025-10-31,FY25,2025-10,UK,HR,Marketing,5xxx,Indirect,Actual,5764.97,GBP
+2025-10-31,FY25,2025-10,UK,Sales,IT Services,5xxx,Indirect,Budget,13843.2,GBP
+2025-10-31,FY25,2025-10,UK,Sales,IT Services,5xxx,Indirect,Actual,13616.19,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,IT Services,5xxx,Indirect,Budget,1977.6,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,IT Services,5xxx,Indirect,Actual,1945.17,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5932.8,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5835.51,GBP
+2025-10-31,FY25,2025-10,UK,Product,IT Services,5xxx,Indirect,Budget,3955.2,GBP
+2025-10-31,FY25,2025-10,UK,Product,IT Services,5xxx,Indirect,Actual,3890.34,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,IT Services,5xxx,Indirect,Budget,5932.8,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,IT Services,5xxx,Indirect,Actual,5835.51,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2768.64,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2723.24,GBP
+2025-10-31,FY25,2025-10,UK,Finance,IT Services,5xxx,Indirect,Budget,3164.16,GBP
+2025-10-31,FY25,2025-10,UK,Finance,IT Services,5xxx,Indirect,Actual,3112.27,GBP
+2025-10-31,FY25,2025-10,UK,HR,IT Services,5xxx,Indirect,Budget,1977.6,GBP
+2025-10-31,FY25,2025-10,UK,HR,IT Services,5xxx,Indirect,Actual,1945.17,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Professional Services,5xxx,Direct,Budget,13843.2,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Professional Services,5xxx,Direct,Actual,13777.63,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Professional Services,5xxx,Direct,Budget,1977.6,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Professional Services,5xxx,Direct,Actual,1968.23,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5932.8,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5904.7,GBP
+2025-10-31,FY25,2025-10,UK,Product,Professional Services,5xxx,Direct,Budget,3955.2,GBP
+2025-10-31,FY25,2025-10,UK,Product,Professional Services,5xxx,Direct,Actual,3936.47,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Professional Services,5xxx,Direct,Budget,5932.8,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Professional Services,5xxx,Direct,Actual,5904.7,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2768.64,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2755.53,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Professional Services,5xxx,Direct,Budget,3164.16,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Professional Services,5xxx,Direct,Actual,3149.17,GBP
+2025-10-31,FY25,2025-10,UK,HR,Professional Services,5xxx,Direct,Budget,1977.6,GBP
+2025-10-31,FY25,2025-10,UK,HR,Professional Services,5xxx,Direct,Actual,1968.23,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Payroll,5xxx,Indirect,Budget,64601.6,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Payroll,5xxx,Indirect,Actual,65218.13,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Payroll,5xxx,Indirect,Budget,9228.8,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Payroll,5xxx,Indirect,Actual,9316.88,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Payroll,5xxx,Indirect,Budget,27686.4,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Payroll,5xxx,Indirect,Actual,27950.63,GBP
+2025-10-31,FY25,2025-10,UK,Product,Payroll,5xxx,Indirect,Budget,18457.6,GBP
+2025-10-31,FY25,2025-10,UK,Product,Payroll,5xxx,Indirect,Actual,18633.75,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Payroll,5xxx,Indirect,Budget,27686.4,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Payroll,5xxx,Indirect,Actual,27950.63,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Payroll,5xxx,Indirect,Budget,12920.32,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Payroll,5xxx,Indirect,Actual,13043.63,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Payroll,5xxx,Indirect,Budget,14766.08,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Payroll,5xxx,Indirect,Actual,14907.0,GBP
+2025-10-31,FY25,2025-10,UK,HR,Payroll,5xxx,Indirect,Budget,9228.8,GBP
+2025-10-31,FY25,2025-10,UK,HR,Payroll,5xxx,Indirect,Actual,9316.88,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Travel,5xxx,Indirect,Budget,2307.2,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Travel,5xxx,Indirect,Actual,2276.69,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Travel,5xxx,Indirect,Budget,329.6,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Travel,5xxx,Indirect,Actual,325.24,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Travel,5xxx,Indirect,Budget,988.8,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Travel,5xxx,Indirect,Actual,975.73,GBP
+2025-10-31,FY25,2025-10,UK,Product,Travel,5xxx,Indirect,Budget,659.2,GBP
+2025-10-31,FY25,2025-10,UK,Product,Travel,5xxx,Indirect,Actual,650.48,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Travel,5xxx,Indirect,Budget,988.8,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Travel,5xxx,Indirect,Actual,975.73,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Travel,5xxx,Indirect,Budget,461.44,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Travel,5xxx,Indirect,Actual,455.34,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Travel,5xxx,Indirect,Budget,527.36,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Travel,5xxx,Indirect,Actual,520.39,GBP
+2025-10-31,FY25,2025-10,UK,HR,Travel,5xxx,Indirect,Budget,329.6,GBP
+2025-10-31,FY25,2025-10,UK,HR,Travel,5xxx,Indirect,Actual,325.24,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2307.2,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2294.3,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,329.6,GBP
+2025-10-31,FY25,2025-10,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,327.76,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,988.8,GBP
+2025-10-31,FY25,2025-10,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,983.27,GBP
+2025-10-31,FY25,2025-10,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,659.2,GBP
+2025-10-31,FY25,2025-10,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,655.51,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,988.8,GBP
+2025-10-31,FY25,2025-10,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,983.27,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,461.44,GBP
+2025-10-31,FY25,2025-10,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,458.86,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,527.36,GBP
+2025-10-31,FY25,2025-10,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,524.41,GBP
+2025-10-31,FY25,2025-10,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,329.6,GBP
+2025-10-31,FY25,2025-10,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,327.76,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Cost of Sales,5xxx,Direct,Budget,62899.2,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Cost of Sales,5xxx,Direct,Actual,61982.39,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8985.6,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8854.63,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,26956.8,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,26563.88,GBP
+2025-11-30,FY25,2025-11,UK,Product,Cost of Sales,5xxx,Direct,Budget,17971.2,GBP
+2025-11-30,FY25,2025-11,UK,Product,Cost of Sales,5xxx,Direct,Actual,17709.25,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,26956.8,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,26563.88,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,12579.84,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,12396.48,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Cost of Sales,5xxx,Direct,Budget,14376.96,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Cost of Sales,5xxx,Direct,Actual,14167.4,GBP
+2025-11-30,FY25,2025-11,UK,HR,Cost of Sales,5xxx,Direct,Budget,8985.6,GBP
+2025-11-30,FY25,2025-11,UK,HR,Cost of Sales,5xxx,Direct,Actual,8854.63,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Marketing,5xxx,Indirect,Budget,41932.8,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Marketing,5xxx,Indirect,Actual,41918.92,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Marketing,5xxx,Indirect,Budget,5990.4,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Marketing,5xxx,Indirect,Actual,5988.42,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Marketing,5xxx,Indirect,Budget,17971.2,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Marketing,5xxx,Indirect,Actual,17965.25,GBP
+2025-11-30,FY25,2025-11,UK,Product,Marketing,5xxx,Indirect,Budget,11980.8,GBP
+2025-11-30,FY25,2025-11,UK,Product,Marketing,5xxx,Indirect,Actual,11976.84,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Marketing,5xxx,Indirect,Budget,17971.2,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Marketing,5xxx,Indirect,Actual,17965.25,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Marketing,5xxx,Indirect,Budget,8386.56,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Marketing,5xxx,Indirect,Actual,8383.78,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Marketing,5xxx,Indirect,Budget,9584.64,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Marketing,5xxx,Indirect,Actual,9581.47,GBP
+2025-11-30,FY25,2025-11,UK,HR,Marketing,5xxx,Indirect,Budget,5990.4,GBP
+2025-11-30,FY25,2025-11,UK,HR,Marketing,5xxx,Indirect,Actual,5988.42,GBP
+2025-11-30,FY25,2025-11,UK,Sales,IT Services,5xxx,Indirect,Budget,13977.6,GBP
+2025-11-30,FY25,2025-11,UK,Sales,IT Services,5xxx,Indirect,Actual,14264.69,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,IT Services,5xxx,Indirect,Budget,1996.8,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,IT Services,5xxx,Indirect,Actual,2037.81,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5990.4,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,IT Services,5xxx,Indirect,Actual,6113.44,GBP
+2025-11-30,FY25,2025-11,UK,Product,IT Services,5xxx,Indirect,Budget,3993.6,GBP
+2025-11-30,FY25,2025-11,UK,Product,IT Services,5xxx,Indirect,Actual,4075.63,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,IT Services,5xxx,Indirect,Budget,5990.4,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,IT Services,5xxx,Indirect,Actual,6113.44,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2795.52,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2852.94,GBP
+2025-11-30,FY25,2025-11,UK,Finance,IT Services,5xxx,Indirect,Budget,3194.88,GBP
+2025-11-30,FY25,2025-11,UK,Finance,IT Services,5xxx,Indirect,Actual,3260.5,GBP
+2025-11-30,FY25,2025-11,UK,HR,IT Services,5xxx,Indirect,Budget,1996.8,GBP
+2025-11-30,FY25,2025-11,UK,HR,IT Services,5xxx,Indirect,Actual,2037.81,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Professional Services,5xxx,Direct,Budget,13977.6,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Professional Services,5xxx,Direct,Actual,13716.97,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Professional Services,5xxx,Direct,Budget,1996.8,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Professional Services,5xxx,Direct,Actual,1959.57,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5990.4,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5878.7,GBP
+2025-11-30,FY25,2025-11,UK,Product,Professional Services,5xxx,Direct,Budget,3993.6,GBP
+2025-11-30,FY25,2025-11,UK,Product,Professional Services,5xxx,Direct,Actual,3919.13,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Professional Services,5xxx,Direct,Budget,5990.4,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Professional Services,5xxx,Direct,Actual,5878.7,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2795.52,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2743.39,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Professional Services,5xxx,Direct,Budget,3194.88,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Professional Services,5xxx,Direct,Actual,3135.31,GBP
+2025-11-30,FY25,2025-11,UK,HR,Professional Services,5xxx,Direct,Budget,1996.8,GBP
+2025-11-30,FY25,2025-11,UK,HR,Professional Services,5xxx,Direct,Actual,1959.57,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Payroll,5xxx,Indirect,Budget,65228.8,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Payroll,5xxx,Indirect,Actual,66249.3,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Payroll,5xxx,Indirect,Budget,9318.4,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Payroll,5xxx,Indirect,Actual,9464.19,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Payroll,5xxx,Indirect,Budget,27955.2,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Payroll,5xxx,Indirect,Actual,28392.56,GBP
+2025-11-30,FY25,2025-11,UK,Product,Payroll,5xxx,Indirect,Budget,18636.8,GBP
+2025-11-30,FY25,2025-11,UK,Product,Payroll,5xxx,Indirect,Actual,18928.37,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Payroll,5xxx,Indirect,Budget,27955.2,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Payroll,5xxx,Indirect,Actual,28392.56,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Payroll,5xxx,Indirect,Budget,13045.76,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Payroll,5xxx,Indirect,Actual,13249.86,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Payroll,5xxx,Indirect,Budget,14909.44,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Payroll,5xxx,Indirect,Actual,15142.7,GBP
+2025-11-30,FY25,2025-11,UK,HR,Payroll,5xxx,Indirect,Budget,9318.4,GBP
+2025-11-30,FY25,2025-11,UK,HR,Payroll,5xxx,Indirect,Actual,9464.19,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Travel,5xxx,Indirect,Budget,2329.6,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Travel,5xxx,Indirect,Actual,2277.77,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Travel,5xxx,Indirect,Budget,332.8,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Travel,5xxx,Indirect,Actual,325.4,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Travel,5xxx,Indirect,Budget,998.4,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Travel,5xxx,Indirect,Actual,976.19,GBP
+2025-11-30,FY25,2025-11,UK,Product,Travel,5xxx,Indirect,Budget,665.6,GBP
+2025-11-30,FY25,2025-11,UK,Product,Travel,5xxx,Indirect,Actual,650.79,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Travel,5xxx,Indirect,Budget,998.4,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Travel,5xxx,Indirect,Actual,976.19,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Travel,5xxx,Indirect,Budget,465.92,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Travel,5xxx,Indirect,Actual,455.55,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Travel,5xxx,Indirect,Budget,532.48,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Travel,5xxx,Indirect,Actual,520.63,GBP
+2025-11-30,FY25,2025-11,UK,HR,Travel,5xxx,Indirect,Budget,332.8,GBP
+2025-11-30,FY25,2025-11,UK,HR,Travel,5xxx,Indirect,Actual,325.4,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2329.6,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2375.44,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,332.8,GBP
+2025-11-30,FY25,2025-11,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,339.35,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,998.4,GBP
+2025-11-30,FY25,2025-11,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,1018.04,GBP
+2025-11-30,FY25,2025-11,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,665.6,GBP
+2025-11-30,FY25,2025-11,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,678.7,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,998.4,GBP
+2025-11-30,FY25,2025-11,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,1018.04,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,465.92,GBP
+2025-11-30,FY25,2025-11,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,475.09,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,532.48,GBP
+2025-11-30,FY25,2025-11,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,542.96,GBP
+2025-11-30,FY25,2025-11,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,332.8,GBP
+2025-11-30,FY25,2025-11,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,339.35,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Cost of Sales,5xxx,Direct,Budget,62294.4,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Cost of Sales,5xxx,Direct,Actual,61324.13,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8899.2,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8760.59,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,26697.6,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,26281.77,GBP
+2025-12-31,FY25,2025-12,UK,Product,Cost of Sales,5xxx,Direct,Budget,17798.4,GBP
+2025-12-31,FY25,2025-12,UK,Product,Cost of Sales,5xxx,Direct,Actual,17521.18,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,26697.6,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,26281.77,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,12458.88,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,12264.83,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Cost of Sales,5xxx,Direct,Budget,14238.72,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Cost of Sales,5xxx,Direct,Actual,14016.94,GBP
+2025-12-31,FY25,2025-12,UK,HR,Cost of Sales,5xxx,Direct,Budget,8899.2,GBP
+2025-12-31,FY25,2025-12,UK,HR,Cost of Sales,5xxx,Direct,Actual,8760.59,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Marketing,5xxx,Indirect,Budget,41529.6,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Marketing,5xxx,Indirect,Actual,41350.21,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Marketing,5xxx,Indirect,Budget,5932.8,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Marketing,5xxx,Indirect,Actual,5907.17,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Marketing,5xxx,Indirect,Budget,17798.4,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Marketing,5xxx,Indirect,Actual,17721.52,GBP
+2025-12-31,FY25,2025-12,UK,Product,Marketing,5xxx,Indirect,Budget,11865.6,GBP
+2025-12-31,FY25,2025-12,UK,Product,Marketing,5xxx,Indirect,Actual,11814.34,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Marketing,5xxx,Indirect,Budget,17798.4,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Marketing,5xxx,Indirect,Actual,17721.52,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Marketing,5xxx,Indirect,Budget,8305.92,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Marketing,5xxx,Indirect,Actual,8270.04,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Marketing,5xxx,Indirect,Budget,9492.48,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Marketing,5xxx,Indirect,Actual,9451.48,GBP
+2025-12-31,FY25,2025-12,UK,HR,Marketing,5xxx,Indirect,Budget,5932.8,GBP
+2025-12-31,FY25,2025-12,UK,HR,Marketing,5xxx,Indirect,Actual,5907.17,GBP
+2025-12-31,FY25,2025-12,UK,Sales,IT Services,5xxx,Indirect,Budget,13843.2,GBP
+2025-12-31,FY25,2025-12,UK,Sales,IT Services,5xxx,Indirect,Actual,14193.6,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,IT Services,5xxx,Indirect,Budget,1977.6,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,IT Services,5xxx,Indirect,Actual,2027.66,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5932.8,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,IT Services,5xxx,Indirect,Actual,6082.97,GBP
+2025-12-31,FY25,2025-12,UK,Product,IT Services,5xxx,Indirect,Budget,3955.2,GBP
+2025-12-31,FY25,2025-12,UK,Product,IT Services,5xxx,Indirect,Actual,4055.32,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,IT Services,5xxx,Indirect,Budget,5932.8,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,IT Services,5xxx,Indirect,Actual,6082.97,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2768.64,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2838.72,GBP
+2025-12-31,FY25,2025-12,UK,Finance,IT Services,5xxx,Indirect,Budget,3164.16,GBP
+2025-12-31,FY25,2025-12,UK,Finance,IT Services,5xxx,Indirect,Actual,3244.25,GBP
+2025-12-31,FY25,2025-12,UK,HR,IT Services,5xxx,Indirect,Budget,1977.6,GBP
+2025-12-31,FY25,2025-12,UK,HR,IT Services,5xxx,Indirect,Actual,2027.66,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Professional Services,5xxx,Direct,Budget,13843.2,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Professional Services,5xxx,Direct,Actual,13673.79,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Professional Services,5xxx,Direct,Budget,1977.6,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Professional Services,5xxx,Direct,Actual,1953.4,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5932.8,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5860.19,GBP
+2025-12-31,FY25,2025-12,UK,Product,Professional Services,5xxx,Direct,Budget,3955.2,GBP
+2025-12-31,FY25,2025-12,UK,Product,Professional Services,5xxx,Direct,Actual,3906.8,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Professional Services,5xxx,Direct,Budget,5932.8,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Professional Services,5xxx,Direct,Actual,5860.19,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2768.64,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2734.76,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Professional Services,5xxx,Direct,Budget,3164.16,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Professional Services,5xxx,Direct,Actual,3125.44,GBP
+2025-12-31,FY25,2025-12,UK,HR,Professional Services,5xxx,Direct,Budget,1977.6,GBP
+2025-12-31,FY25,2025-12,UK,HR,Professional Services,5xxx,Direct,Actual,1953.4,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Payroll,5xxx,Indirect,Budget,64601.6,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Payroll,5xxx,Indirect,Actual,64072.49,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Payroll,5xxx,Indirect,Budget,9228.8,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Payroll,5xxx,Indirect,Actual,9153.21,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Payroll,5xxx,Indirect,Budget,27686.4,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Payroll,5xxx,Indirect,Actual,27459.64,GBP
+2025-12-31,FY25,2025-12,UK,Product,Payroll,5xxx,Indirect,Budget,18457.6,GBP
+2025-12-31,FY25,2025-12,UK,Product,Payroll,5xxx,Indirect,Actual,18306.43,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Payroll,5xxx,Indirect,Budget,27686.4,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Payroll,5xxx,Indirect,Actual,27459.64,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Payroll,5xxx,Indirect,Budget,12920.32,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Payroll,5xxx,Indirect,Actual,12814.5,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Payroll,5xxx,Indirect,Budget,14766.08,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Payroll,5xxx,Indirect,Actual,14645.14,GBP
+2025-12-31,FY25,2025-12,UK,HR,Payroll,5xxx,Indirect,Budget,9228.8,GBP
+2025-12-31,FY25,2025-12,UK,HR,Payroll,5xxx,Indirect,Actual,9153.21,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Travel,5xxx,Indirect,Budget,2307.2,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Travel,5xxx,Indirect,Actual,2347.04,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Travel,5xxx,Indirect,Budget,329.6,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Travel,5xxx,Indirect,Actual,335.29,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Travel,5xxx,Indirect,Budget,988.8,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Travel,5xxx,Indirect,Actual,1005.87,GBP
+2025-12-31,FY25,2025-12,UK,Product,Travel,5xxx,Indirect,Budget,659.2,GBP
+2025-12-31,FY25,2025-12,UK,Product,Travel,5xxx,Indirect,Actual,670.58,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Travel,5xxx,Indirect,Budget,988.8,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Travel,5xxx,Indirect,Actual,1005.87,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Travel,5xxx,Indirect,Budget,461.44,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Travel,5xxx,Indirect,Actual,469.41,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Travel,5xxx,Indirect,Budget,527.36,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Travel,5xxx,Indirect,Actual,536.47,GBP
+2025-12-31,FY25,2025-12,UK,HR,Travel,5xxx,Indirect,Budget,329.6,GBP
+2025-12-31,FY25,2025-12,UK,HR,Travel,5xxx,Indirect,Actual,335.29,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2307.2,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2317.11,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,329.6,GBP
+2025-12-31,FY25,2025-12,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,331.02,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,988.8,GBP
+2025-12-31,FY25,2025-12,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,993.05,GBP
+2025-12-31,FY25,2025-12,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,659.2,GBP
+2025-12-31,FY25,2025-12,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,662.03,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,988.8,GBP
+2025-12-31,FY25,2025-12,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,993.05,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,461.44,GBP
+2025-12-31,FY25,2025-12,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,463.42,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,527.36,GBP
+2025-12-31,FY25,2025-12,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,529.63,GBP
+2025-12-31,FY25,2025-12,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,329.6,GBP
+2025-12-31,FY25,2025-12,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,331.02,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Cost of Sales,5xxx,Direct,Budget,61084.8,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Cost of Sales,5xxx,Direct,Actual,59996.85,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8726.4,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8570.98,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,26179.2,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,25712.93,GBP
+2026-01-31,FY25,2026-01,UK,Product,Cost of Sales,5xxx,Direct,Budget,17452.8,GBP
+2026-01-31,FY25,2026-01,UK,Product,Cost of Sales,5xxx,Direct,Actual,17141.96,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,26179.2,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,25712.93,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,12216.96,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,11999.37,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Cost of Sales,5xxx,Direct,Budget,13962.24,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Cost of Sales,5xxx,Direct,Actual,13713.56,GBP
+2026-01-31,FY25,2026-01,UK,HR,Cost of Sales,5xxx,Direct,Budget,8726.4,GBP
+2026-01-31,FY25,2026-01,UK,HR,Cost of Sales,5xxx,Direct,Actual,8570.98,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Marketing,5xxx,Indirect,Budget,40723.2,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Marketing,5xxx,Indirect,Actual,40376.48,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Marketing,5xxx,Indirect,Budget,5817.6,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Marketing,5xxx,Indirect,Actual,5768.07,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Marketing,5xxx,Indirect,Budget,17452.8,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Marketing,5xxx,Indirect,Actual,17304.21,GBP
+2026-01-31,FY25,2026-01,UK,Product,Marketing,5xxx,Indirect,Budget,11635.2,GBP
+2026-01-31,FY25,2026-01,UK,Product,Marketing,5xxx,Indirect,Actual,11536.14,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Marketing,5xxx,Indirect,Budget,17452.8,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Marketing,5xxx,Indirect,Actual,17304.21,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Marketing,5xxx,Indirect,Budget,8144.64,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Marketing,5xxx,Indirect,Actual,8075.3,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Marketing,5xxx,Indirect,Budget,9308.16,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Marketing,5xxx,Indirect,Actual,9228.91,GBP
+2026-01-31,FY25,2026-01,UK,HR,Marketing,5xxx,Indirect,Budget,5817.6,GBP
+2026-01-31,FY25,2026-01,UK,HR,Marketing,5xxx,Indirect,Actual,5768.07,GBP
+2026-01-31,FY25,2026-01,UK,Sales,IT Services,5xxx,Indirect,Budget,13574.4,GBP
+2026-01-31,FY25,2026-01,UK,Sales,IT Services,5xxx,Indirect,Actual,13349.06,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,IT Services,5xxx,Indirect,Budget,1939.2,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,IT Services,5xxx,Indirect,Actual,1907.01,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5817.6,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5721.02,GBP
+2026-01-31,FY25,2026-01,UK,Product,IT Services,5xxx,Indirect,Budget,3878.4,GBP
+2026-01-31,FY25,2026-01,UK,Product,IT Services,5xxx,Indirect,Actual,3814.02,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,IT Services,5xxx,Indirect,Budget,5817.6,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,IT Services,5xxx,Indirect,Actual,5721.02,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2714.88,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2669.81,GBP
+2026-01-31,FY25,2026-01,UK,Finance,IT Services,5xxx,Indirect,Budget,3102.72,GBP
+2026-01-31,FY25,2026-01,UK,Finance,IT Services,5xxx,Indirect,Actual,3051.21,GBP
+2026-01-31,FY25,2026-01,UK,HR,IT Services,5xxx,Indirect,Budget,1939.2,GBP
+2026-01-31,FY25,2026-01,UK,HR,IT Services,5xxx,Indirect,Actual,1907.01,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Professional Services,5xxx,Direct,Budget,13574.4,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Professional Services,5xxx,Direct,Actual,13227.8,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Professional Services,5xxx,Direct,Budget,1939.2,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Professional Services,5xxx,Direct,Actual,1889.69,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5817.6,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5669.06,GBP
+2026-01-31,FY25,2026-01,UK,Product,Professional Services,5xxx,Direct,Budget,3878.4,GBP
+2026-01-31,FY25,2026-01,UK,Product,Professional Services,5xxx,Direct,Actual,3779.37,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Professional Services,5xxx,Direct,Budget,5817.6,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Professional Services,5xxx,Direct,Actual,5669.06,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2714.88,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2645.56,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Professional Services,5xxx,Direct,Budget,3102.72,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Professional Services,5xxx,Direct,Actual,3023.5,GBP
+2026-01-31,FY25,2026-01,UK,HR,Professional Services,5xxx,Direct,Budget,1939.2,GBP
+2026-01-31,FY25,2026-01,UK,HR,Professional Services,5xxx,Direct,Actual,1889.69,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Payroll,5xxx,Indirect,Budget,63347.2,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Payroll,5xxx,Indirect,Actual,64353.42,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Payroll,5xxx,Indirect,Budget,9049.6,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Payroll,5xxx,Indirect,Actual,9193.35,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Payroll,5xxx,Indirect,Budget,27148.8,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Payroll,5xxx,Indirect,Actual,27580.04,GBP
+2026-01-31,FY25,2026-01,UK,Product,Payroll,5xxx,Indirect,Budget,18099.2,GBP
+2026-01-31,FY25,2026-01,UK,Product,Payroll,5xxx,Indirect,Actual,18386.69,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Payroll,5xxx,Indirect,Budget,27148.8,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Payroll,5xxx,Indirect,Actual,27580.04,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Payroll,5xxx,Indirect,Budget,12669.44,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Payroll,5xxx,Indirect,Actual,12870.68,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Payroll,5xxx,Indirect,Budget,14479.36,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Payroll,5xxx,Indirect,Actual,14709.35,GBP
+2026-01-31,FY25,2026-01,UK,HR,Payroll,5xxx,Indirect,Budget,9049.6,GBP
+2026-01-31,FY25,2026-01,UK,HR,Payroll,5xxx,Indirect,Actual,9193.35,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Travel,5xxx,Indirect,Budget,2262.4,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Travel,5xxx,Indirect,Actual,2256.34,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Travel,5xxx,Indirect,Budget,323.2,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Travel,5xxx,Indirect,Actual,322.33,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Travel,5xxx,Indirect,Budget,969.6,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Travel,5xxx,Indirect,Actual,967.0,GBP
+2026-01-31,FY25,2026-01,UK,Product,Travel,5xxx,Indirect,Budget,646.4,GBP
+2026-01-31,FY25,2026-01,UK,Product,Travel,5xxx,Indirect,Actual,644.67,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Travel,5xxx,Indirect,Budget,969.6,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Travel,5xxx,Indirect,Actual,967.0,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Travel,5xxx,Indirect,Budget,452.48,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Travel,5xxx,Indirect,Actual,451.27,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Travel,5xxx,Indirect,Budget,517.12,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Travel,5xxx,Indirect,Actual,515.73,GBP
+2026-01-31,FY25,2026-01,UK,HR,Travel,5xxx,Indirect,Budget,323.2,GBP
+2026-01-31,FY25,2026-01,UK,HR,Travel,5xxx,Indirect,Actual,322.33,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2262.4,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2257.18,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,323.2,GBP
+2026-01-31,FY25,2026-01,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,322.45,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,969.6,GBP
+2026-01-31,FY25,2026-01,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,967.36,GBP
+2026-01-31,FY25,2026-01,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,646.4,GBP
+2026-01-31,FY25,2026-01,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,644.91,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,969.6,GBP
+2026-01-31,FY25,2026-01,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,967.36,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,452.48,GBP
+2026-01-31,FY25,2026-01,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,451.44,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,517.12,GBP
+2026-01-31,FY25,2026-01,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,515.93,GBP
+2026-01-31,FY25,2026-01,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,323.2,GBP
+2026-01-31,FY25,2026-01,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,322.45,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Cost of Sales,5xxx,Direct,Budget,59875.2,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Cost of Sales,5xxx,Direct,Actual,59531.99,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8553.6,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8504.57,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,25660.8,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,25513.71,GBP
+2026-02-28,FY25,2026-02,UK,Product,Cost of Sales,5xxx,Direct,Budget,17107.2,GBP
+2026-02-28,FY25,2026-02,UK,Product,Cost of Sales,5xxx,Direct,Actual,17009.14,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,25660.8,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,25513.71,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,11975.04,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,11906.4,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Cost of Sales,5xxx,Direct,Budget,13685.76,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Cost of Sales,5xxx,Direct,Actual,13607.31,GBP
+2026-02-28,FY25,2026-02,UK,HR,Cost of Sales,5xxx,Direct,Budget,8553.6,GBP
+2026-02-28,FY25,2026-02,UK,HR,Cost of Sales,5xxx,Direct,Actual,8504.57,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Marketing,5xxx,Indirect,Budget,39916.8,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Marketing,5xxx,Indirect,Actual,39229.9,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Marketing,5xxx,Indirect,Budget,5702.4,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Marketing,5xxx,Indirect,Actual,5604.27,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Marketing,5xxx,Indirect,Budget,17107.2,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Marketing,5xxx,Indirect,Actual,16812.81,GBP
+2026-02-28,FY25,2026-02,UK,Product,Marketing,5xxx,Indirect,Budget,11404.8,GBP
+2026-02-28,FY25,2026-02,UK,Product,Marketing,5xxx,Indirect,Actual,11208.54,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Marketing,5xxx,Indirect,Budget,17107.2,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Marketing,5xxx,Indirect,Actual,16812.81,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Marketing,5xxx,Indirect,Budget,7983.36,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Marketing,5xxx,Indirect,Actual,7845.98,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Marketing,5xxx,Indirect,Budget,9123.84,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Marketing,5xxx,Indirect,Actual,8966.83,GBP
+2026-02-28,FY25,2026-02,UK,HR,Marketing,5xxx,Indirect,Budget,5702.4,GBP
+2026-02-28,FY25,2026-02,UK,HR,Marketing,5xxx,Indirect,Actual,5604.27,GBP
+2026-02-28,FY25,2026-02,UK,Sales,IT Services,5xxx,Indirect,Budget,13305.6,GBP
+2026-02-28,FY25,2026-02,UK,Sales,IT Services,5xxx,Indirect,Actual,13052.37,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,IT Services,5xxx,Indirect,Budget,1900.8,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,IT Services,5xxx,Indirect,Actual,1864.62,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5702.4,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5593.87,GBP
+2026-02-28,FY25,2026-02,UK,Product,IT Services,5xxx,Indirect,Budget,3801.6,GBP
+2026-02-28,FY25,2026-02,UK,Product,IT Services,5xxx,Indirect,Actual,3729.25,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,IT Services,5xxx,Indirect,Budget,5702.4,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,IT Services,5xxx,Indirect,Actual,5593.87,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2661.12,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2610.47,GBP
+2026-02-28,FY25,2026-02,UK,Finance,IT Services,5xxx,Indirect,Budget,3041.28,GBP
+2026-02-28,FY25,2026-02,UK,Finance,IT Services,5xxx,Indirect,Actual,2983.4,GBP
+2026-02-28,FY25,2026-02,UK,HR,IT Services,5xxx,Indirect,Budget,1900.8,GBP
+2026-02-28,FY25,2026-02,UK,HR,IT Services,5xxx,Indirect,Actual,1864.62,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Professional Services,5xxx,Direct,Budget,13305.6,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Professional Services,5xxx,Direct,Actual,13178.04,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Professional Services,5xxx,Direct,Budget,1900.8,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Professional Services,5xxx,Direct,Actual,1882.58,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5702.4,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5647.73,GBP
+2026-02-28,FY25,2026-02,UK,Product,Professional Services,5xxx,Direct,Budget,3801.6,GBP
+2026-02-28,FY25,2026-02,UK,Product,Professional Services,5xxx,Direct,Actual,3765.15,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Professional Services,5xxx,Direct,Budget,5702.4,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Professional Services,5xxx,Direct,Actual,5647.73,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2661.12,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2635.61,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Professional Services,5xxx,Direct,Budget,3041.28,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Professional Services,5xxx,Direct,Actual,3012.12,GBP
+2026-02-28,FY25,2026-02,UK,HR,Professional Services,5xxx,Direct,Budget,1900.8,GBP
+2026-02-28,FY25,2026-02,UK,HR,Professional Services,5xxx,Direct,Actual,1882.58,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Payroll,5xxx,Indirect,Budget,62092.8,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Payroll,5xxx,Indirect,Actual,63851.78,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Payroll,5xxx,Indirect,Budget,8870.4,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Payroll,5xxx,Indirect,Actual,9121.68,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Payroll,5xxx,Indirect,Budget,26611.2,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Payroll,5xxx,Indirect,Actual,27365.05,GBP
+2026-02-28,FY25,2026-02,UK,Product,Payroll,5xxx,Indirect,Budget,17740.8,GBP
+2026-02-28,FY25,2026-02,UK,Product,Payroll,5xxx,Indirect,Actual,18243.37,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Payroll,5xxx,Indirect,Budget,26611.2,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Payroll,5xxx,Indirect,Actual,27365.05,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Payroll,5xxx,Indirect,Budget,12418.56,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Payroll,5xxx,Indirect,Actual,12770.36,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Payroll,5xxx,Indirect,Budget,14192.64,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Payroll,5xxx,Indirect,Actual,14594.69,GBP
+2026-02-28,FY25,2026-02,UK,HR,Payroll,5xxx,Indirect,Budget,8870.4,GBP
+2026-02-28,FY25,2026-02,UK,HR,Payroll,5xxx,Indirect,Actual,9121.68,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Travel,5xxx,Indirect,Budget,2217.6,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Travel,5xxx,Indirect,Actual,2280.83,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Travel,5xxx,Indirect,Budget,316.8,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Travel,5xxx,Indirect,Actual,325.83,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Travel,5xxx,Indirect,Budget,950.4,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Travel,5xxx,Indirect,Actual,977.5,GBP
+2026-02-28,FY25,2026-02,UK,Product,Travel,5xxx,Indirect,Budget,633.6,GBP
+2026-02-28,FY25,2026-02,UK,Product,Travel,5xxx,Indirect,Actual,651.67,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Travel,5xxx,Indirect,Budget,950.4,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Travel,5xxx,Indirect,Actual,977.5,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Travel,5xxx,Indirect,Budget,443.52,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Travel,5xxx,Indirect,Actual,456.17,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Travel,5xxx,Indirect,Budget,506.88,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Travel,5xxx,Indirect,Actual,521.33,GBP
+2026-02-28,FY25,2026-02,UK,HR,Travel,5xxx,Indirect,Budget,316.8,GBP
+2026-02-28,FY25,2026-02,UK,HR,Travel,5xxx,Indirect,Actual,325.83,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2217.6,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2249.03,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,316.8,GBP
+2026-02-28,FY25,2026-02,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,321.29,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,950.4,GBP
+2026-02-28,FY25,2026-02,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,963.87,GBP
+2026-02-28,FY25,2026-02,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,633.6,GBP
+2026-02-28,FY25,2026-02,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,642.58,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,950.4,GBP
+2026-02-28,FY25,2026-02,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,963.87,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,443.52,GBP
+2026-02-28,FY25,2026-02,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,449.81,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,506.88,GBP
+2026-02-28,FY25,2026-02,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,514.07,GBP
+2026-02-28,FY25,2026-02,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,316.8,GBP
+2026-02-28,FY25,2026-02,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,321.29,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Cost of Sales,5xxx,Direct,Budget,58665.6,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Cost of Sales,5xxx,Direct,Actual,59051.16,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8380.8,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8435.88,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,25142.4,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,25307.64,GBP
+2026-03-31,FY25,2026-03,UK,Product,Cost of Sales,5xxx,Direct,Budget,16761.6,GBP
+2026-03-31,FY25,2026-03,UK,Product,Cost of Sales,5xxx,Direct,Actual,16871.76,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,25142.4,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,25307.64,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,11733.12,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,11810.23,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Cost of Sales,5xxx,Direct,Budget,13409.28,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Cost of Sales,5xxx,Direct,Actual,13497.41,GBP
+2026-03-31,FY25,2026-03,UK,HR,Cost of Sales,5xxx,Direct,Budget,8380.8,GBP
+2026-03-31,FY25,2026-03,UK,HR,Cost of Sales,5xxx,Direct,Actual,8435.88,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Marketing,5xxx,Indirect,Budget,39110.4,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Marketing,5xxx,Indirect,Actual,38130.12,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Marketing,5xxx,Indirect,Budget,5587.2,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Marketing,5xxx,Indirect,Actual,5447.16,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Marketing,5xxx,Indirect,Budget,16761.6,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Marketing,5xxx,Indirect,Actual,16341.48,GBP
+2026-03-31,FY25,2026-03,UK,Product,Marketing,5xxx,Indirect,Budget,11174.4,GBP
+2026-03-31,FY25,2026-03,UK,Product,Marketing,5xxx,Indirect,Actual,10894.32,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Marketing,5xxx,Indirect,Budget,16761.6,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Marketing,5xxx,Indirect,Actual,16341.48,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Marketing,5xxx,Indirect,Budget,7822.08,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Marketing,5xxx,Indirect,Actual,7626.02,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Marketing,5xxx,Indirect,Budget,8939.52,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Marketing,5xxx,Indirect,Actual,8715.46,GBP
+2026-03-31,FY25,2026-03,UK,HR,Marketing,5xxx,Indirect,Budget,5587.2,GBP
+2026-03-31,FY25,2026-03,UK,HR,Marketing,5xxx,Indirect,Actual,5447.16,GBP
+2026-03-31,FY25,2026-03,UK,Sales,IT Services,5xxx,Indirect,Budget,13036.8,GBP
+2026-03-31,FY25,2026-03,UK,Sales,IT Services,5xxx,Indirect,Actual,12771.86,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,IT Services,5xxx,Indirect,Budget,1862.4,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,IT Services,5xxx,Indirect,Actual,1824.55,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5587.2,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5473.65,GBP
+2026-03-31,FY25,2026-03,UK,Product,IT Services,5xxx,Indirect,Budget,3724.8,GBP
+2026-03-31,FY25,2026-03,UK,Product,IT Services,5xxx,Indirect,Actual,3649.1,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,IT Services,5xxx,Indirect,Budget,5587.2,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,IT Services,5xxx,Indirect,Actual,5473.65,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2607.36,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2554.37,GBP
+2026-03-31,FY25,2026-03,UK,Finance,IT Services,5xxx,Indirect,Budget,2979.84,GBP
+2026-03-31,FY25,2026-03,UK,Finance,IT Services,5xxx,Indirect,Actual,2919.28,GBP
+2026-03-31,FY25,2026-03,UK,HR,IT Services,5xxx,Indirect,Budget,1862.4,GBP
+2026-03-31,FY25,2026-03,UK,HR,IT Services,5xxx,Indirect,Actual,1824.55,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Professional Services,5xxx,Direct,Budget,13036.8,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Professional Services,5xxx,Direct,Actual,13100.35,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Professional Services,5xxx,Direct,Budget,1862.4,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Professional Services,5xxx,Direct,Actual,1871.48,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5587.2,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5614.44,GBP
+2026-03-31,FY25,2026-03,UK,Product,Professional Services,5xxx,Direct,Budget,3724.8,GBP
+2026-03-31,FY25,2026-03,UK,Product,Professional Services,5xxx,Direct,Actual,3742.96,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Professional Services,5xxx,Direct,Budget,5587.2,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Professional Services,5xxx,Direct,Actual,5614.44,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2607.36,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2620.07,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Professional Services,5xxx,Direct,Budget,2979.84,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Professional Services,5xxx,Direct,Actual,2994.37,GBP
+2026-03-31,FY25,2026-03,UK,HR,Professional Services,5xxx,Direct,Budget,1862.4,GBP
+2026-03-31,FY25,2026-03,UK,HR,Professional Services,5xxx,Direct,Actual,1871.48,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Payroll,5xxx,Indirect,Budget,60838.4,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Payroll,5xxx,Indirect,Actual,60440.66,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Payroll,5xxx,Indirect,Budget,8691.2,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Payroll,5xxx,Indirect,Actual,8634.38,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Payroll,5xxx,Indirect,Budget,26073.6,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Payroll,5xxx,Indirect,Actual,25903.14,GBP
+2026-03-31,FY25,2026-03,UK,Product,Payroll,5xxx,Indirect,Budget,17382.4,GBP
+2026-03-31,FY25,2026-03,UK,Product,Payroll,5xxx,Indirect,Actual,17268.76,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Payroll,5xxx,Indirect,Budget,26073.6,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Payroll,5xxx,Indirect,Actual,25903.14,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Payroll,5xxx,Indirect,Budget,12167.68,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Payroll,5xxx,Indirect,Actual,12088.13,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Payroll,5xxx,Indirect,Budget,13905.92,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Payroll,5xxx,Indirect,Actual,13815.01,GBP
+2026-03-31,FY25,2026-03,UK,HR,Payroll,5xxx,Indirect,Budget,8691.2,GBP
+2026-03-31,FY25,2026-03,UK,HR,Payroll,5xxx,Indirect,Actual,8634.38,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Travel,5xxx,Indirect,Budget,2172.8,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Travel,5xxx,Indirect,Actual,2130.45,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Travel,5xxx,Indirect,Budget,310.4,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Travel,5xxx,Indirect,Actual,304.35,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Travel,5xxx,Indirect,Budget,931.2,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Travel,5xxx,Indirect,Actual,913.05,GBP
+2026-03-31,FY25,2026-03,UK,Product,Travel,5xxx,Indirect,Budget,620.8,GBP
+2026-03-31,FY25,2026-03,UK,Product,Travel,5xxx,Indirect,Actual,608.7,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Travel,5xxx,Indirect,Budget,931.2,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Travel,5xxx,Indirect,Actual,913.05,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Travel,5xxx,Indirect,Budget,434.56,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Travel,5xxx,Indirect,Actual,426.09,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Travel,5xxx,Indirect,Budget,496.64,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Travel,5xxx,Indirect,Actual,486.96,GBP
+2026-03-31,FY25,2026-03,UK,HR,Travel,5xxx,Indirect,Budget,310.4,GBP
+2026-03-31,FY25,2026-03,UK,HR,Travel,5xxx,Indirect,Actual,304.35,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2172.8,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2155.79,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,310.4,GBP
+2026-03-31,FY25,2026-03,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,307.97,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,931.2,GBP
+2026-03-31,FY25,2026-03,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,923.91,GBP
+2026-03-31,FY25,2026-03,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,620.8,GBP
+2026-03-31,FY25,2026-03,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,615.94,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,931.2,GBP
+2026-03-31,FY25,2026-03,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,923.91,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,434.56,GBP
+2026-03-31,FY25,2026-03,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,431.16,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,496.64,GBP
+2026-03-31,FY25,2026-03,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,492.75,GBP
+2026-03-31,FY25,2026-03,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,310.4,GBP
+2026-03-31,FY25,2026-03,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,307.97,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Cost of Sales,5xxx,Direct,Budget,57456.0,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Cost of Sales,5xxx,Direct,Actual,57914.05,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Cost of Sales,5xxx,Direct,Budget,8208.0,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Cost of Sales,5xxx,Direct,Actual,8273.44,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Cost of Sales,5xxx,Direct,Budget,24624.0,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Cost of Sales,5xxx,Direct,Actual,24820.31,GBP
+2026-04-30,FY25,2026-04,UK,Product,Cost of Sales,5xxx,Direct,Budget,16416.0,GBP
+2026-04-30,FY25,2026-04,UK,Product,Cost of Sales,5xxx,Direct,Actual,16546.87,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Cost of Sales,5xxx,Direct,Budget,24624.0,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Cost of Sales,5xxx,Direct,Actual,24820.31,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Cost of Sales,5xxx,Direct,Budget,11491.2,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Cost of Sales,5xxx,Direct,Actual,11582.81,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Cost of Sales,5xxx,Direct,Budget,13132.8,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Cost of Sales,5xxx,Direct,Actual,13237.5,GBP
+2026-04-30,FY25,2026-04,UK,HR,Cost of Sales,5xxx,Direct,Budget,8208.0,GBP
+2026-04-30,FY25,2026-04,UK,HR,Cost of Sales,5xxx,Direct,Actual,8273.44,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Marketing,5xxx,Indirect,Budget,38304.0,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Marketing,5xxx,Indirect,Actual,39008.31,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Marketing,5xxx,Indirect,Budget,5472.0,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Marketing,5xxx,Indirect,Actual,5572.62,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Marketing,5xxx,Indirect,Budget,16416.0,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Marketing,5xxx,Indirect,Actual,16717.85,GBP
+2026-04-30,FY25,2026-04,UK,Product,Marketing,5xxx,Indirect,Budget,10944.0,GBP
+2026-04-30,FY25,2026-04,UK,Product,Marketing,5xxx,Indirect,Actual,11145.23,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Marketing,5xxx,Indirect,Budget,16416.0,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Marketing,5xxx,Indirect,Actual,16717.85,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Marketing,5xxx,Indirect,Budget,7660.8,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Marketing,5xxx,Indirect,Actual,7801.66,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Marketing,5xxx,Indirect,Budget,8755.2,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Marketing,5xxx,Indirect,Actual,8916.18,GBP
+2026-04-30,FY25,2026-04,UK,HR,Marketing,5xxx,Indirect,Budget,5472.0,GBP
+2026-04-30,FY25,2026-04,UK,HR,Marketing,5xxx,Indirect,Actual,5572.62,GBP
+2026-04-30,FY25,2026-04,UK,Sales,IT Services,5xxx,Indirect,Budget,12768.0,GBP
+2026-04-30,FY25,2026-04,UK,Sales,IT Services,5xxx,Indirect,Actual,12712.56,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,IT Services,5xxx,Indirect,Budget,1824.0,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,IT Services,5xxx,Indirect,Actual,1816.08,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,IT Services,5xxx,Indirect,Budget,5472.0,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,IT Services,5xxx,Indirect,Actual,5448.24,GBP
+2026-04-30,FY25,2026-04,UK,Product,IT Services,5xxx,Indirect,Budget,3648.0,GBP
+2026-04-30,FY25,2026-04,UK,Product,IT Services,5xxx,Indirect,Actual,3632.16,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,IT Services,5xxx,Indirect,Budget,5472.0,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,IT Services,5xxx,Indirect,Actual,5448.24,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,IT Services,5xxx,Indirect,Budget,2553.6,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,IT Services,5xxx,Indirect,Actual,2542.51,GBP
+2026-04-30,FY25,2026-04,UK,Finance,IT Services,5xxx,Indirect,Budget,2918.4,GBP
+2026-04-30,FY25,2026-04,UK,Finance,IT Services,5xxx,Indirect,Actual,2905.73,GBP
+2026-04-30,FY25,2026-04,UK,HR,IT Services,5xxx,Indirect,Budget,1824.0,GBP
+2026-04-30,FY25,2026-04,UK,HR,IT Services,5xxx,Indirect,Actual,1816.08,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Professional Services,5xxx,Direct,Budget,12768.0,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Professional Services,5xxx,Direct,Actual,12985.9,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Professional Services,5xxx,Direct,Budget,1824.0,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Professional Services,5xxx,Direct,Actual,1855.13,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Professional Services,5xxx,Direct,Budget,5472.0,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Professional Services,5xxx,Direct,Actual,5565.39,GBP
+2026-04-30,FY25,2026-04,UK,Product,Professional Services,5xxx,Direct,Budget,3648.0,GBP
+2026-04-30,FY25,2026-04,UK,Product,Professional Services,5xxx,Direct,Actual,3710.26,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Professional Services,5xxx,Direct,Budget,5472.0,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Professional Services,5xxx,Direct,Actual,5565.39,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Professional Services,5xxx,Direct,Budget,2553.6,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Professional Services,5xxx,Direct,Actual,2597.18,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Professional Services,5xxx,Direct,Budget,2918.4,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Professional Services,5xxx,Direct,Actual,2968.21,GBP
+2026-04-30,FY25,2026-04,UK,HR,Professional Services,5xxx,Direct,Budget,1824.0,GBP
+2026-04-30,FY25,2026-04,UK,HR,Professional Services,5xxx,Direct,Actual,1855.13,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Payroll,5xxx,Indirect,Budget,59584.0,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Payroll,5xxx,Indirect,Actual,58281.07,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Payroll,5xxx,Indirect,Budget,8512.0,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Payroll,5xxx,Indirect,Actual,8325.87,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Payroll,5xxx,Indirect,Budget,25536.0,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Payroll,5xxx,Indirect,Actual,24977.6,GBP
+2026-04-30,FY25,2026-04,UK,Product,Payroll,5xxx,Indirect,Budget,17024.0,GBP
+2026-04-30,FY25,2026-04,UK,Product,Payroll,5xxx,Indirect,Actual,16651.73,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Payroll,5xxx,Indirect,Budget,25536.0,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Payroll,5xxx,Indirect,Actual,24977.6,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Payroll,5xxx,Indirect,Budget,11916.8,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Payroll,5xxx,Indirect,Actual,11656.21,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Payroll,5xxx,Indirect,Budget,13619.2,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Payroll,5xxx,Indirect,Actual,13321.39,GBP
+2026-04-30,FY25,2026-04,UK,HR,Payroll,5xxx,Indirect,Budget,8512.0,GBP
+2026-04-30,FY25,2026-04,UK,HR,Payroll,5xxx,Indirect,Actual,8325.87,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Travel,5xxx,Indirect,Budget,2128.0,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Travel,5xxx,Indirect,Actual,2119.38,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Travel,5xxx,Indirect,Budget,304.0,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Travel,5xxx,Indirect,Actual,302.77,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Travel,5xxx,Indirect,Budget,912.0,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Travel,5xxx,Indirect,Actual,908.3,GBP
+2026-04-30,FY25,2026-04,UK,Product,Travel,5xxx,Indirect,Budget,608.0,GBP
+2026-04-30,FY25,2026-04,UK,Product,Travel,5xxx,Indirect,Actual,605.54,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Travel,5xxx,Indirect,Budget,912.0,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Travel,5xxx,Indirect,Actual,908.3,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Travel,5xxx,Indirect,Budget,425.6,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Travel,5xxx,Indirect,Actual,423.88,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Travel,5xxx,Indirect,Budget,486.4,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Travel,5xxx,Indirect,Actual,484.43,GBP
+2026-04-30,FY25,2026-04,UK,HR,Travel,5xxx,Indirect,Budget,304.0,GBP
+2026-04-30,FY25,2026-04,UK,HR,Travel,5xxx,Indirect,Actual,302.77,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Warehousing and Distribution,5xxx,Direct,Budget,2128.0,GBP
+2026-04-30,FY25,2026-04,UK,Sales,Warehousing and Distribution,5xxx,Direct,Actual,2154.9,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Budget,304.0,GBP
+2026-04-30,FY25,2026-04,UK,Marketing,Warehousing and Distribution,5xxx,Direct,Actual,307.84,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Budget,912.0,GBP
+2026-04-30,FY25,2026-04,UK,Customer Success,Warehousing and Distribution,5xxx,Direct,Actual,923.53,GBP
+2026-04-30,FY25,2026-04,UK,Product,Warehousing and Distribution,5xxx,Direct,Budget,608.0,GBP
+2026-04-30,FY25,2026-04,UK,Product,Warehousing and Distribution,5xxx,Direct,Actual,615.69,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Budget,912.0,GBP
+2026-04-30,FY25,2026-04,UK,Engineering,Warehousing and Distribution,5xxx,Direct,Actual,923.53,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Budget,425.6,GBP
+2026-04-30,FY25,2026-04,UK,IT Ops,Warehousing and Distribution,5xxx,Direct,Actual,430.98,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Warehousing and Distribution,5xxx,Direct,Budget,486.4,GBP
+2026-04-30,FY25,2026-04,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,492.55,GBP
+2026-04-30,FY25,2026-04,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,304.0,GBP
+2026-04-30,FY25,2026-04,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,307.84,GBP
