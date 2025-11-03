@@ -1343,3 +1343,25 @@ Date,FY,Period,Entity,Department,Category,Account,CostType,DataType,Amount,Curre
 2026-04-30,FY25,2026-04,UK,Finance,Warehousing and Distribution,5xxx,Direct,Actual,492.55,GBP
 2026-04-30,FY25,2026-04,UK,HR,Warehousing and Distribution,5xxx,Direct,Budget,304.0,GBP
 2026-04-30,FY25,2026-04,UK,HR,Warehousing and Distribution,5xxx,Direct,Actual,307.84,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Revenue,4xxx,,Actual,1535631,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Revenue,4xxx,,Actual,1024953,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Revenue,4xxx,,Actual,1571925,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Revenue,4xxx,,Actual,2435018,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Revenue,4xxx,,Actual,2012045,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Revenue,4xxx,,Actual,1758412,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Revenue,4xxx,,Actual,1075820,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Revenue,4xxx,,Actual,2154123,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Revenue,4xxx,,Actual,1914201,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Revenue,4xxx,,Actual,1524602,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Revenue,4xxx,,Actual,1581725,GBP
+2025-05-31,FY25,2025-05,UK,Sales,Revenue,4xxx,,Budget,1689194.1,GBP
+2025-06-30,FY25,2025-06,UK,Sales,Revenue,4xxx,,Budget,1035202.53,GBP
+2025-07-31,FY25,2025-07,UK,Sales,Revenue,4xxx,,Budget,1650521.25,GBP
+2025-08-31,FY25,2025-08,UK,Sales,Revenue,4xxx,,Budget,2313267.1,GBP
+2025-09-30,FY25,2025-09,UK,Sales,Revenue,4xxx,,Budget,1911442.75,GBP
+2025-10-31,FY25,2025-10,UK,Sales,Revenue,4xxx,,Budget,1582570.8,GBP
+2025-11-30,FY25,2025-11,UK,Sales,Revenue,4xxx,,Budget,1129611,GBP
+2025-12-31,FY25,2025-12,UK,Sales,Revenue,4xxx,,Budget,2175664.23,GBP
+2026-01-31,FY25,2026-01,UK,Sales,Revenue,4xxx,,Budget,1722780.9,GBP
+2026-02-28,FY25,2026-02,UK,Sales,Revenue,4xxx,,Budget,1539848.02,GBP
+2026-03-31,FY25,2026-03,UK,Sales,Revenue,4xxx,,Budget,1423552.5,GBP
