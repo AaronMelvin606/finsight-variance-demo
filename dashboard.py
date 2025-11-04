@@ -124,6 +124,11 @@ REQUIRED_COLS = ["FY", "Period", "Entity", "Department", "Category", "DataType",
 def load_df_safe(path: Path) -> pd.DataFrame:
     try:
         df = pd.read_csv(path)
+
+           # --- Normalize CostType so Revenue isn't dropped by Direct/Indirect filters
+        df["CostType"] = df["CostType"].fillna("").astype(str).str.strip()
+        df.loc[df["Category"].str.strip().eq("Revenue"), "CostType"] = "Revenue"
+        
     except FileNotFoundError:
         st.error("📁 Demo data not found. Please contact hello@finsightai.tech")
         st.stop()
