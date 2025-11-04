@@ -115,7 +115,7 @@ tbody tr {
 # -------------------------------------------------------------------
 DATA_PATH = Path(__file__).parent / "data" / "demo_finance.csv"
 CURRENCY = "£"
-REVENUE_CATS = {"Sales"}
+REVENUE_CATS = {"Revenue"}
 REQUIRED_COLS = ["FY", "Period", "Entity", "Department", "Category", "DataType", "Amount"]
 
 # -------------------------------------------------------------------
@@ -296,8 +296,9 @@ with st.sidebar:
     ent = st.multiselect("Entity", sorted(df["Entity"].unique()), default=sorted(df["Entity"].unique()), key="entity_sel")
     dep = st.multiselect("Department", sorted(df["Department"].unique()), default=sorted(df["Department"].unique()), key="dept_sel")
     cat = st.multiselect("Category", sorted(df["Category"].unique()), default=sorted(df["Category"].unique()), key="cat_sel")
-    ct = st.multiselect("Cost Type", sorted([c for c in df["CostType"].dropna().unique() if c!=""]),
-                        default=sorted([c for c in df["CostType"].dropna().unique() if c!=""]), key="ct_sel")
+    ct_unique = sorted(df["CostType"].fillna("").astype(str).str.strip().unique().tolist())
+    ct = st.multiselect("Cost Type", options=ct_unique, default=ct_unique)
+
 
     st.markdown("---")
     if st.button("🔄 Reset All Filters", use_container_width=True):
@@ -316,7 +317,7 @@ mask = (
     df["Entity"].isin(ent) &
     df["Department"].isin(dep) &
     df["Category"].isin(cat) &
-    (df["CostType"].isin(ct) | (df["CostType"]==""))
+    df["CostType"].astype(str).str.strip().isin(ct)
 )
 fdf = df.loc[mask].copy()
 
