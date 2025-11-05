@@ -1,10 +1,10 @@
-cat > "pages/03_Phase C — Executive Narrative.py" <<'PY'
-import os, math
+import os
 import numpy as np
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="Executive Narrative — FinSight AI", layout="wide")
+st.set_page_config(page_title="Phase C — Executive Narrative", layout="wide")
+st.title("Phase C — Executive Narrative")
 
 @st.cache_data
 def load_data():
@@ -14,17 +14,19 @@ def load_data():
     return df
 
 def summarize_variance(df):
-    # Expect Actual/Budget by Category
     piv = df.pivot_table(values="Amount", index="Category", columns="DataType", aggfunc="sum").fillna(0.0)
     for col in ["Actual","Budget"]:
         if col not in piv.columns: piv[col] = 0.0
     piv["Var"] = piv["Actual"] - piv["Budget"]
-    total_var = piv["Var"].sum()
+    total_var = float(piv["Var"].sum())
     top = piv["Var"].abs().sort_values(ascending=False).head(3)
+
     bullets = []
-    for cat, val in top.items():
+    for cat, val_abs in top.items():
+        val = float(piv.loc[cat,"Var"])
         sign = "favourable" if (cat.lower()=="revenue" and val>0) or (cat.lower()!="revenue" and val<0) else "unfavourable"
-        bullets.append(f"- {cat}: {('+' if val>=0 else '−')}{abs(val):,.0f} ({sign})")
+        prefix = "+" if val>=0 else "−"
+        bullets.append(f"- {cat}: {prefix}{abs(val):,.0f} ({sign})")
     return total_var, bullets
 
 def local_commentary(total_var, bullets):
@@ -37,13 +39,12 @@ def local_commentary(total_var, bullets):
     ]
     return "\n".join(body)
 
-st.title("Phase C — Executive Narrative")
 df = load_data()
 
-# Optional: same quick filters as Scenario page
 cols = st.columns(3)
 if "FY" in df.columns:
-    fy = cols[0].multiselect("FY", sorted(df["FY"].dropna().unique().tolist()), default=sorted(df["FY"].dropna().unique().tolist()))
+    fy = cols[0].multiselect("FY", sorted(df["FY"].dropna().unique().tolist()),
+                             default=sorted(df["FY"].dropna().unique().tolist()))
     df = df[df["FY"].isin(fy)]
 if "Entity" in df.columns:
     ent = cols[1].multiselect("Entity", sorted(df["Entity"].dropna().unique().tolist()))
@@ -56,6 +57,4 @@ st.markdown("### Executive Summary (Auto-generated)")
 total_var, bullets = summarize_variance(df)
 st.markdown(local_commentary(total_var, bullets))
 
-st.caption("This is a fast local generator. If you add a Claude/OpenAI key to Streamlit Secrets, we can swap to LLM-powered narratives here with one function call.")
-PY
-
+st.caption("Local fast commentary. Add an API key in Secrets later to switch to LLM output with the same inputs.")
