@@ -1,3 +1,6 @@
+from passgate import require_password
+require_password()
+
 from pathlib import Path
 import numpy as np
 import pandas as pd
