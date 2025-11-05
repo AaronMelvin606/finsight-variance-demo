@@ -1,139 +1,110 @@
-import os
-import numpy as np
-import pandas as pd
-import plotly.graph_objects as go
 import streamlit as st
+import pandas as pd
+import numpy as np
 
 st.set_page_config(page_title="Phase B — Scenario Mode", layout="wide")
-st.title("Phase B — Scenario Mode")
 
-# ---------- Data ----------
 @st.cache_data
 def load_data():
-    path = os.path.join("data", "demo_finance.csv")
-    df = pd.read_csv(path)
-    for c in ["Amount"]:
-        if c in df.columns:
-            df[c] = pd.to_numeric(df[c], errors="coerce").fillna(0.0)
+    df = pd.read_csv("data/demo_finance.csv")
+    # Ensure column names are as expected:
+    # ['FY','Period','Entity','Department','Category','CostType','DataType','Amount']
+    df["Amount"] = pd.to_numeric(df["Amount"], errors="coerce").fillna(0.0)
     return df
 
-def pct_slider(label, default=0.0, minv=-30.0, maxv=30.0, step=0.5, help_txt=""):
-    return st.slider(label, minv, maxv, value=default, step=step, help=help_txt, format="%.1f%%")
+def money(x):  # £123,456 style
+    return f"£{x:,.0f}"
 
-def scenario_adjust(df, rev_pct, cogs_pct, direct_pct, indirect_pct, apply_to="Budget"):
-    if not {"DataType","Category","Amount"}.issubset(df.columns):
-        st.error("CSV must include DataType, Category, Amount.")
-        st.stop()
-
-    base = df.copy()
-    scen = df.copy()
-
-    is_budget = scen["DataType"].str.lower().eq(apply_to.lower())
-
-    cat = scen["Category"].str.lower()
-    rev_mask = cat.eq("revenue")
-    cogs_mask = cat.isin(["cost of sales","cogs"])
-    direct_mask = cat.eq("direct")
-    indirect_mask = cat.eq("indirect")
-
-    scen.loc[is_budget & rev_mask, "Amount"] *= (1 + rev_pct/100.0)
-    scen.loc[is_budget & cogs_mask, "Amount"] *= (1 + cogs_pct/100.0)
-    scen.loc[is_budget & direct_mask, "Amount"] *= (1 + direct_pct/100.0)
-    scen.loc[is_budget & indirect_mask, "Amount"] *= (1 + indirect_pct/100.0)
-
-    keys = [c for c in ["FY","Period","Entity","Department"] if c in df.columns]
-    grp = keys + ["Category","DataType"]
-
-    agg_scen = scen.groupby(grp, dropna=False, as_index=False)["Amount"].sum()
-    agg_base = base.groupby(grp, dropna=False, as_index=False)["Amount"].sum()
-
-    def wide(d):
-        return d.pivot_table(index=[c for c in d.columns if c not in ["Amount","DataType"]],
-                             columns="DataType", values="Amount", aggfunc="sum").fillna(0.0)
-
-    w_scen = wide(agg_scen).rename_axis(None, axis=1)
-    w_base = wide(agg_base).rename_axis(None, axis=1)
-
-    out = w_scen.join(w_base, lsuffix="_SCEN", rsuffix="_BASE", how="outer").fillna(0.0)
-
-    for col in ["Actual","Budget"]:
-        if col not in out.columns: out[col] = 0.0
-    if "Budget_SCEN" not in out.columns: out["Budget_SCEN"] = 0.0
-
-    out["Var_SCEN_vs_Actual"] = out["Actual"] - out["Budget_SCEN"]
-    out["Var_BASE_vs_Actual"] = out["Actual"] - out["Budget"]
-
-    # Profit-friendly sign: revenue↑ favourable; costs↓ favourable
-    def favour_sign(row):
-        return 1 if str(row.get("Category","")).lower()=="revenue" else -1
-
-    out["Var_SCEN_sign"] = out.apply(lambda r: r["Var_SCEN_vs_Actual"] * favour_sign(r), axis=1)
-    out["Var_BASE_sign"] = out.apply(lambda r: r["Var_BASE_vs_Actual"] * favour_sign(r), axis=1)
-
-    return out.reset_index()
-
-def fmt(n): 
-    try: return f"£{n:,.0f}"
-    except: return n
-
-def waterfall_for_category(out_df):
-    if not {"Category","Budget_SCEN","Actual"}.issubset(out_df.columns):
-        st.info("Not enough columns for waterfall.")
-        return
-    cat_totals = out_df.groupby("Category", as_index=False)[["Budget_SCEN","Actual"]].sum()
-    budget_total = float(cat_totals["Budget_SCEN"].sum())
-    actual_total = float(cat_totals["Actual"].sum())
-
-    steps = [{"label":"Budget (Scenario)","value":budget_total}]
-    for _, r in cat_totals.iterrows():
-        steps.append({"label":str(r["Category"]), "value": float(r["Actual"]-r["Budget_SCEN"])})
-    steps.append({"label":"Actual","value": actual_total - budget_total})
-
-    fig = go.Figure(go.Waterfall(
-        name="Scenario",
-        orientation="v",
-        measure=["absolute"] + ["relative"]*(len(steps)-2) + ["total"],
-        x=[s["label"] for s in steps],
-        y=[s["value"] for s in steps],
-    ))
-    fig.update_layout(height=420, margin=dict(l=20,r=20,t=30,b=10))
-    st.plotly_chart(fig, use_container_width=True)
+def kpi_tile(title, scenario_amt, budget_amt):
+    var = scenario_amt - budget_amt
+    delta_txt = f"{money(var)}"
+    # Simple tile styling
+    st.markdown(
+        f"""
+        <div style="padding:1.25rem;border:1px solid #ddd;border-radius:12px;background:#fff;">
+          <div style="font-size:1.1rem;color:#344e41;margin-bottom:0.35rem;">{title}</div>
+          <div style="display:flex;gap:1.75rem;flex-wrap:wrap;">
+            <div><div style="color:#5f6c62;">Scenario</div><div style="font-weight:700;font-size:1.6rem;">{money(scenario_amt)}</div></div>
+            <div><div style="color:#5f6c62;">Budget</div><div style="font-weight:700;font-size:1.6rem;">{money(budget_amt)}</div></div>
+            <div><div style="color:#5f6c62;">Variance</div><div style="font-weight:700;font-size:1.6rem;">{delta_txt}</div></div>
+          </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 df = load_data()
+st.title("Phase B — Scenario Mode")
 
-# Basic filters
-cols = st.columns(4)
-if "FY" in df.columns:
-    fy = cols[0].multiselect("FY", sorted(df["FY"].dropna().unique().tolist()),
-                             default=sorted(df["FY"].dropna().unique().tolist()))
-    df = df[df["FY"].isin(fy)]
-if "Entity" in df.columns:
-    ent = cols[1].multiselect("Entity", sorted(df["Entity"].dropna().unique().tolist()))
-    if ent: df = df[df["Entity"].isin(ent)]
-if "Department" in df.columns:
-    dep = cols[2].multiselect("Department", sorted(df["Department"].dropna().unique().tolist()))
-    if dep: df = df[df["Department"].isin(dep)]
+# === Filters (mirror the main dashboard) ===
+c1, c2, c3 = st.columns([1,1,2])
+with c1:
+    fy_sel = st.multiselect("FY", sorted(df["FY"].dropna().unique().tolist()), default=sorted(df["FY"].dropna().unique().tolist()))
+with c2:
+    entity_sel = st.multiselect("Entity", sorted(df["Entity"].dropna().unique().tolist()), default=sorted(df["Entity"].dropna().unique().tolist()))
+with c3:
+    dept_sel = st.multiselect("Department", sorted(df["Department"].dropna().unique().tolist()), default=sorted(df["Department"].dropna().unique().tolist()))
 
-st.subheader("Adjust drivers")
-c1,c2,c3,c4 = st.columns(4)
-rev = c1.slider("Revenue %", -30.0, 30.0, 0.0, 0.5, help="Increase/decrease revenue vs Budget")
-cogs = c2.slider("COGS %",   -30.0, 30.0, 0.0, 0.5, help="Change Cost of Sales vs Budget")
-direct = c3.slider("Direct Opex %", -30.0, 30.0, 0.0, 0.5)
-indirect = c4.slider("Indirect Opex %", -30.0, 30.0, 0.0, 0.5)
+mask = (
+    df["FY"].isin(fy_sel) &
+    df["Entity"].isin(entity_sel) &
+    df["Department"].isin(dept_sel)
+)
+fdf = df.loc[mask].copy()
 
-out = scenario_adjust(df, rev, cogs, direct, indirect, apply_to="Budget")
+# === Scenario sliders ===
+st.markdown("#### Scenario Adjustments (%)")
+s1, s2, s3, s4 = st.columns(4)
+with s1:
+    rev_pct = st.slider("Revenue %", -20, 20, 0, 1)
+with s2:
+    cogs_pct = st.slider("COGS %", -20, 20, 0, 1)
+with s3:
+    direct_pct = st.slider("Direct %", -20, 20, 0, 1)
+with s4:
+    indirect_pct = st.slider("Indirect %", -20, 20, 0, 1)
 
-st.subheader("Scenario Impact — by Category")
-showcols = [c for c in ["Category","Budget","Actual","Budget_SCEN",
-                        "Var_BASE_vs_Actual","Var_SCEN_vs_Actual",
-                        "Var_BASE_sign","Var_SCEN_sign"] if c in out.columns]
-st.dataframe(out[showcols].sort_values(by="Category"), use_container_width=True)
+adj = {
+    "Revenue": 1.0 + (rev_pct / 100.0),
+    "Cost of Sales": 1.0 + (cogs_pct / 100.0),
+    "Direct": 1.0 + (direct_pct / 100.0),
+    "Indirect": 1.0 + (indirect_pct / 100.0),
+}
 
-st.markdown("#### Scenario Waterfall")
-waterfall_for_category(out)
+# === Pivot helpers ===
+def sum_amount(category, datatype):
+    m = (fdf["Category"] == category) & (fdf["DataType"] == datatype)
+    return float(fdf.loc[m, "Amount"].sum())
 
-if {"Budget_SCEN","Actual"}.issubset(out.columns):
-    b = float(out["Budget_SCEN"].sum())
-    a = float(out["Actual"].sum())
-    v = a - b
-    st.markdown(f"**Totals** — Scenario Budget: {fmt(b)}  |  Actual: {fmt(a)}  |  Variance: {fmt(v)}")
+# Budget + Actual by category
+B_rev   = sum_amount("Revenue", "Budget")
+B_cogs  = sum_amount("Cost of Sales", "Budget")
+B_dir   = sum_amount("Direct", "Budget")
+B_ind   = sum_amount("Indirect", "Budget")
+B_OPI   = B_rev - B_cogs - B_dir - B_ind
+
+A_rev   = sum_amount("Revenue", "Actual")
+A_cogs  = sum_amount("Cost of Sales", "Actual")
+A_dir   = sum_amount("Direct", "Actual")
+A_ind   = sum_amount("Indirect", "Actual")
+A_OPI   = A_rev - A_cogs - A_dir - A_ind
+
+# Scenario = Actual scaled by sliders
+S_rev   = A_rev * adj["Revenue"]
+S_cogs  = A_cogs * adj["Cost of Sales"]
+S_dir   = A_dir * adj["Direct"]
+S_ind   = A_ind * adj["Indirect"]
+S_OPI   = S_rev - S_cogs - S_dir - S_ind
+
+st.markdown("### Scenario vs Budget — KPI Tiles")
+col1, col2, col3, col4 = st.columns(4)
+with col1: kpi_tile("Revenue", S_rev, B_rev)
+with col2: kpi_tile("Cost of Sales", S_cogs, B_cogs)
+with col3: kpi_tile("Direct", S_dir, B_dir)
+with col4: kpi_tile("Indirect", S_ind, B_ind)
+
+st.markdown("---")
+st.subheader("OPI (Scenario vs Budget)")
+st.markdown(
+    f"**Scenario OPI:** {money(S_OPI)}  •  **Budget OPI:** {money(B_OPI)}  •  **Variance:** {money(S_OPI - B_OPI)}"
+)
