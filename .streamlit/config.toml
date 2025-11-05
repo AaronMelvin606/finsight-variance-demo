@@ -6,3 +6,10 @@ secondaryBackgroundColor = "#FFFFFF"
 textColor = "#2C3E2A"
 font = "sans serif"
 
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+script = "secure_dashboard.py"
+
+
