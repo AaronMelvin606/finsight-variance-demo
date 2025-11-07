@@ -57,97 +57,60 @@ sums = summarize_variance(fdf)
 # === Anthropic (optional) ===
 anthropic_key = st.secrets.get("anthropic", {}).get("api_key") if hasattr(st, "secrets") else None
 
+import os
+import anthropic
+import streamlit as st
+
+def _anthropic_client():
+    key = st.secrets.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")
+    return anthropic.Anthropic(api_key=key) if key else None
+
+def llm_exec_summary(df):
+    # small, model-friendly table (Department x Category x DataType → Amount)
+    tbl = (
+        df.groupby(["Department","Category","DataType"])["Amount"]
+          .sum().reset_index()
+          .pivot_table(index=["Department","Category"], columns="DataType", values="Amount", fill_value=0.0)
+          .reset_index()
+          .head(80)  # keep context modest
+    )
+    # stringify
+    table_txt = tbl.to_string(index=False)
+
+    sys_prompt = (
+        "You are an FP&A analytics assistant. Use only the table below and be precise.\n"
+        "KPI rule: OPI = Revenue – Cost of Sales – Direct – Indirect (GBP).\n"
+        "Write 3–5 bullet points: overall up/down vs budget, top drivers (by £), and a crisp recommendation."
+    )
+    user_prompt = (
+        f"Filters → FY: {', '.join(map(str, fy_sel))} | Entity: {', '.join(entity_sel)} | "
+        f"Departments: {', '.join(dept_sel)}\n"
+        f"Table (Department, Category, Actual, Budget):\n{table_txt}\n"
+        "Now generate the executive summary."
+    )
+
+    client = _anthropic_client()
+    if not client:
+        st.info("Anthropic key not found; showing fast local commentary.")
+        return None  # caller will fallback
+
+    resp = client.messages.create(
+        model="claude-3-5-sonnet-latest",
+        max_tokens=300,
+        temperature=0.2,
+        messages=[{"role":"user","content": user_prompt}],
+        system=sys_prompt,
+    )
+    return resp.content[0].text.strip()
+
+# --- where you currently render the “Executive Summary (Auto-generated)” ---
 st.markdown("### Executive Summary (Auto-generated)")
-if anthropic_key:
-    try:
-        from anthropic import Anthropic
-        client = Anthropic(api_key=anthropic_key)
-
-        context = {
-            "FY": fy_sel,
-            "Entity": entity_sel,
-            "Departments": dept_sel,
-            "Revenue": sums["Revenue"],
-            "Cost of Sales": sums["Cost of Sales"],
-            "Direct": sums["Direct"],
-            "Indirect": sums["Indirect"],
-            "OPI": sums["OPI"],
-        }
-
-        prompt = (
-            "You are an FP&A copilot. Write a crisp executive summary (5–7 sentences) about the variance performance. "
-            "Use CFO tone, avoid fluff, explain drivers and practical actions. Numbers are GBP. "
-            f"Here is the JSON context to base your answer on:\n{context}\n"
-            "Rules:\n"
-            "- Start with OPI performance vs budget and high-level percent.\n"
-            "- Attribute drivers to categories. Mention favourable/unfavourable.\n"
-            "- Offer 2–3 specific actions (e.g., pricing checks, spend pacing, vendor renegotiations).\n"
-        )
-
-        msg = client.messages.create(
-            model="claude-3-5-sonnet-latest",
-            max_tokens=500,
-            temperature=0.2,
-            system="You write CFO-grade variance commentary grounded strictly in provided data.",
-            messages=[{"role":"user","content":prompt}],
-        )
-        st.write(msg.content[0].text)
-    except Exception as e:
-        st.info("Anthropic not available; showing local fast commentary.")
-        total, bullets = local_commentary(sums)
-        st.write(f"Overall, performance is **{('ahead of' if sums['OPI']['Var']>=0 else 'behind')} plan** by {money(abs(sums['OPI']['Var']))}.")
-        for b in bullets: st.write(f"- {b}")
+llm_text = llm_exec_summary(df)
+if llm_text:
+    st.markdown(llm_text)
 else:
-    total, bullets = local_commentary(sums)
-    st.write(f"Overall, performance is **{('ahead of' if sums['OPI']['Var']>=0 else 'behind')} plan** by {money(abs(sums['OPI']['Var']))}.")
-    for b in bullets: st.write(f"- {b}")
+    # your existing local summary function as fallback
+    total_var, bullets = summarize_variance(df)
+    st.markdown(local_commentary(total_var, bullets))
+    st.caption("Local fast commentary. Add an Anthropic key in Secrets to enable LLM output.")
 
-st.markdown("---")
-st.subheader("Ask AI about this view")
-st.caption("Ask natural-language questions about the filtered data (uses Claude if a key is present).")
-
-if "chat" not in st.session_state:
-    st.session_state.chat = []
-
-for role, msg in st.session_state.chat:
-    with st.chat_message(role):
-        st.markdown(msg)
-
-q = st.chat_input("e.g., Which department contributed most to the positive OPI variance?")
-if q:
-    st.session_state.chat.append(("user", q))
-    with st.chat_message("assistant"):
-        if anthropic_key:
-            from anthropic import Anthropic
-            client = Anthropic(api_key=anthropic_key)
-            # Give Claude a compact table summary to reason over
-            by_dept = (
-                fdf.groupby(["Department","Category","DataType"])["Amount"]
-                .sum()
-                .reset_index()
-                .pivot_table(index=["Department","Category"], columns="DataType", values="Amount", fill_value=0.0)
-                .reset_index()
-            )
-            # Build a small text table (safe length)
-            head_rows = min(len(by_dept), 80)
-            table_txt = by_dept.head(head_rows).to_string(index=False)
-            chat_prompt = (
-                "You are an FP&A analytics assistant. Answer strictly from the table and context.\n"
-                f"Filters -> FY:{fy_sel} | Entity:{entity_sel} | Departments:{dept_sel}\n"
-                "Table columns: Department, Category, Actual, Budget (GBP). OPI = Revenue - Cost of Sales - Direct - Indirect.\n"
-                f"Table:\n{table_txt}\n\n"
-                f"Question: {q}\n"
-                "Give a concise, actionable answer with numbers."
-            )
-            resp = client.messages.create(
-                model="claude-3-5-sonnet-latest",
-                max_tokens=400,
-                temperature=0.2,
-                system="You are precise and numeric. Never invent data outside the table.",
-                messages=[{"role":"user","content":chat_prompt}],
-            )
-            answer = resp.content[0].text
-        else:
-            answer = "AI chat is disabled (no Anthropic key in Secrets). Add one to enable this."
-        st.markdown(answer)
-        st.session_state.chat.append(("assistant", answer))
