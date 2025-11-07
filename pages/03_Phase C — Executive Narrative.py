@@ -137,3 +137,94 @@ else:
     st.markdown(local_commentary(total_var, bullets))
     st.caption("Local fast commentary. Add an Anthropic key in Secrets to enable LLM output.")
 
+# --- Ask the data (chat beta) ---
+st.divider()
+st.subheader("Ask the data (beta)")
+
+# Keep a small, readable table for the model / fallback
+def _mini_table(src_df):
+    # Department x Category x DataType (Amount), filled & compact
+    g = (
+        src_df.groupby(["Department", "Category", "DataType"])["Amount"]
+        .sum()
+        .reset_index()
+        .pivot_table(
+            index=["Department", "Category"],
+            columns="DataType",
+            values="Amount",
+            fill_value=0.0,
+            aggfunc="sum",
+        )
+        .reset_index()
+    )
+    # keep it modest in size; Streamlit still shows the full df above
+    head_rows = min(len(g), 80)
+    return g.head(head_rows)
+
+def _table_to_text(df_):
+    # Tight, deterministic text table
+    return df_.to_string(index=False)
+
+# Session chat state
+if "chat" not in st.session_state:
+    st.session_state.chat = []
+
+# Render history
+for role, msg in st.session_state.chat:
+    with st.chat_message(role):
+        st.markdown(msg)
+
+# Input
+q = st.chat_input("e.g., Which department contributed most to the positive OPI variance?")
+if q:
+    st.session_state.chat.append(("user", q))
+    with st.chat_message("user"):
+        st.markdown(q)
+
+    # Build a compact table based on CURRENT filters on this page
+    tbl = _mini_table(df)
+    tbl_txt = _table_to_text(tbl)
+
+    # Compose a strict prompt with the KPI rule + active filters
+    # (fy_sel, entity_sel, dept_sel are already defined earlier on this page)
+    filters_txt = f"Filters → FY: {', '.join(map(str, fy_sel))} | Entity: {', '.join(entity_sel)} | Departments: {', '.join(dept_sel)}"
+    kpi_rule = "KPI rule: OPI = Revenue – Cost of Sales – Direct – Indirect (GBP)."
+    user_prompt = (
+        "You are an FP&A analytics assistant. Answer directly using only the table below.\n"
+        f"{kpi_rule}\n"
+        "Write 3–5 bullet points max (overall up/down vs budget, top drivers by £), and finish with one crisp recommendation.\n\n"
+        f"{filters_txt}\n"
+        "Table (Department, Category with KPI columns):\n"
+        f"{tbl_txt}\n\n"
+        f"Question: {q}\n"
+        "Be concise, numeric, and never invent data that is not present in the table."
+    )
+
+    # Try Anthropic; fall back to a tiny local heuristic if no key is available
+    answer_md = None
+    client = anthropic_client() if "anthropic_client" in globals() else None
+    try:
+        if client:
+            resp = client.messages.create(
+                model="claude-3-5-sonnet-latest",
+                max_tokens=400,
+                temperature=0.2,
+                system="You are a precise FP&A assistant. Only use numbers from the provided table.",
+                messages=[{"role": "user", "content": user_prompt}],
+            )
+            answer_md = resp.content[0].text.strip()
+        else:
+            answer_md = (
+                "_AI chat is disabled (no Anthropic key in Secrets). "
+                "Add one in Streamlit Cloud to enable this assistant._"
+            )
+    except Exception as e:
+        answer_md = f"_Chat unavailable right now ({type(e).__name__}). Showing table-driven context only._\n\n" \
+                    f"**Context summary (local):**\n- Departments included: {', '.join(sorted(df['Department'].dropna().unique().tolist()))}\n" \
+                    f"- Rows shown: {len(tbl)}"
+
+    st.session_state.chat.append(("assistant", answer_md))
+    with st.chat_message("assistant"):
+        st.markdown(answer_md)
+
+
