@@ -103,6 +103,22 @@ def llm_exec_summary(df):
     )
     return resp.content[0].text.strip()
 
+# --- Local fast fallback (used when Anthropic key is missing) ---
+def summarize_variance(df):
+    """Quick local summary when AI is disabled."""
+    total = df["Amount"].sum()
+    revenue = df.loc[df["Category"] == "Revenue", "Amount"].sum()
+    costs = df.loc[df["Category"].str.contains("Cost", case=False), "Amount"].sum()
+    net = revenue - costs
+
+    bullets = [
+        f"Overall variance vs plan: £{total:,.0f}",
+        f"Revenue: £{revenue:,.0f}",
+        f"Costs: £{costs:,.0f}",
+        f"Net impact: £{net:,.0f}",
+    ]
+    return total, bullets
+
 # --- where you currently render the “Executive Summary (Auto-generated)” ---
 st.markdown("### Executive Summary (Auto-generated)")
 llm_text = llm_exec_summary(df)
