@@ -119,6 +119,13 @@ def summarize_variance(df):
     ]
     return total, bullets
 
+def local_commentary(total_var: float, bullets: list[str]) -> str:
+    """Return a single markdown block for the fallback summary."""
+    direction = "ahead of plan" if total_var > 0 else "behind plan"
+    header = f"Overall, performance is **{direction}** by £{abs(total_var):,.0f}."
+    bullet_md = "\n".join(f"- {str(b)}" for b in bullets)
+    return f"{header}\n\n{bullet_md}"
+
 # --- where you currently render the “Executive Summary (Auto-generated)” ---
 st.markdown("### Executive Summary (Auto-generated)")
 llm_text = llm_exec_summary(df)
