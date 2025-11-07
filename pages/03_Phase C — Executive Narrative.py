@@ -55,7 +55,22 @@ fdf = df.loc[mask].copy()
 sums = summarize_variance(fdf)
 
 # === Anthropic (optional) ===
-anthropic_key = st.secrets.get("anthropic", {}).get("api_key") if hasattr(st, "secrets") else None
+def _get_anthropic_key():
+    if not hasattr(st, "secrets"):
+        return None
+    sec = st.secrets
+    # Support either [anthropic].ANTHROPIC_API_KEY, [anthropic].api_key, or top-level ANTHROPIC_API_KEY
+    if "anthropic" in sec:
+        return sec["anthropic"].get("ANTHROPIC_API_KEY") or sec["anthropic"].get("api_key")
+    return sec.get("ANTHROPIC_API_KEY") or sec.get("anthropic_api_key")
+
+from anthropic import Anthropic
+
+def anthropic_client():
+    key = _get_anthropic_key()
+    if not key:
+        return None
+    return Anthropic(api_key=key)
 
 import os
 import anthropic
@@ -88,11 +103,12 @@ def llm_exec_summary(df):
         f"Table (Department, Category, Actual, Budget):\n{table_txt}\n"
         "Now generate the executive summary."
     )
-
-    client = _anthropic_client()
-    if not client:
-        st.info("Anthropic key not found; showing fast local commentary.")
-        return None  # caller will fallback
+client = anthropic_client()
+if not client:
+    st.info("Anthropic key not found; showing fast local commentary.")
+    # … local summary fallback …
+else:
+    # … use client.messages.create( … ) …
 
     resp = client.messages.create(
         model="claude-3-5-sonnet-latest",
