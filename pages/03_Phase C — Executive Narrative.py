@@ -4,6 +4,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+st.caption(f"Key visible to app: {bool(_get_anthropic_key())}")
+
 st.set_page_config(page_title="Phase C — Executive Narrative", layout="wide")
 
 # ----------------------- Data -----------------------
