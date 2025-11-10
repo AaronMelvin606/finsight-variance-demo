@@ -4,8 +4,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.caption(f"Key visible to app: {bool(_get_anthropic_key())}")
-
 st.set_page_config(page_title="Phase C — Executive Narrative", layout="wide")
 
 # ----------------------- Data -----------------------
@@ -78,6 +76,13 @@ def _anthropic_client():
         return Anthropic(api_key=key)
     except Exception:
         return None
+
+# --- TEMP: verify the key is visible to the app (remove once confirmed True) ---
+try:
+    _visible = bool(_get_anthropic_key())
+except Exception:
+    _visible = False
+st.caption(f"Key visible to app: {_visible}")
 
 # ----------------------- LLM Executive Summary -----------------------
 def llm_exec_summary(fdf: pd.DataFrame, fy_sel, entity_sel, dept_sel) -> str | None:
