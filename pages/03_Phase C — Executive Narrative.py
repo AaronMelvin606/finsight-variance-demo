@@ -31,7 +31,6 @@ def variance_by_category(df: pd.DataFrame) -> dict:
 
 def local_commentary_from_rollup(sums: dict) -> tuple[float, list[str]]:
     bullets = []
-    # Prefer Marketing if present, else Direct (keeps your original behavior)
     order = ["Revenue", "Marketing" if "Marketing" in sums else "Direct", "Cost of Sales", "Indirect"]
     for k in order:
         if k in sums:
@@ -53,25 +52,32 @@ def render_local_summary(df: pd.DataFrame) -> str:
 def _get_anthropic_key() -> str | None:
     """Read from Streamlit Secrets (sectioned or top-level), else env."""
     try:
-        # Check [anthropic] section
         if "anthropic" in st.secrets:
             sect = st.secrets["anthropic"]
             if "ANTHROPIC_API_KEY" in sect:
                 return sect["ANTHROPIC_API_KEY"]
             if "api_key" in sect:
                 return sect["api_key"]
-        # Check top-level keys
         if "ANTHROPIC_API_KEY" in st.secrets:
             return st.secrets["ANTHROPIC_API_KEY"]
         if "anthropic_api_key" in st.secrets:
             return st.secrets["anthropic_api_key"]
     except Exception:
         pass
-    # Fallback for local environment variable
     return os.environ.get("ANTHROPIC_API_KEY")
 
+def _anthropic_client():
+    """Instantiate Anthropic client if a key is available; else None."""
+    key = _get_anthropic_key()
+    if not key:
+        return None
+    try:
+        from anthropic import Anthropic
+        return Anthropic(api_key=key)
+    except Exception:
+        return None
 
-# Optional: debug visibility check (you can remove after verifying)
+# Optional: debug visibility check (safe to remove later)
 st.caption(f"Secrets sections: {list(getattr(st, 'secrets', {}).keys())}")
 st.caption(f"Key visible to app: {bool(_get_anthropic_key())}")
 
