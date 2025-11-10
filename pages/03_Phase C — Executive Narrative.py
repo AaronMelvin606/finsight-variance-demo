@@ -1,5 +1,6 @@
 # pages/03_Phase C — Executive Narrative.py
 import os
+import textwrap
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -50,53 +51,67 @@ def render_local_summary(df: pd.DataFrame) -> str:
 
 # ----------------------- Anthropic client helpers -----------------------
 def _get_anthropic_key() -> str | None:
-    """Read from Streamlit Secrets (sectioned or top-level), else env."""
+    """
+    Read from Streamlit Secrets (sectioned or top-level), else env.
+    Accepts:
+      [anthropic].ANTHROPIC_API_KEY
+      [anthropic].api_key
+      ANTHROPIC_API_KEY (top-level)
+      anthropic_api_key (top-level)
+    """
     try:
-        if "anthropic" in st.secrets:
-            sect = st.secrets["anthropic"]
-            if "ANTHROPIC_API_KEY" in sect:
-                return sect["ANTHROPIC_API_KEY"]
-            if "api_key" in sect:
-                return sect["api_key"]
-        if "ANTHROPIC_API_KEY" in st.secrets:
-            return st.secrets["ANTHROPIC_API_KEY"]
-        if "anthropic_api_key" in st.secrets:
-            return st.secrets["anthropic_api_key"]
+        sec = getattr(st, "secrets", {})
+        if "anthropic" in sec:
+            sect = sec["anthropic"]
+            k = sect.get("ANTHROPIC_API_KEY") or sect.get("api_key")
+            if k:
+                return k.strip()
+        k = sec.get("ANTHROPIC_API_KEY") or sec.get("anthropic_api_key")
+        if k:
+            return str(k).strip()
     except Exception:
         pass
-    return os.environ.get("ANTHROPIC_API_KEY")
+    k = os.environ.get("ANTHROPIC_API_KEY")
+    return k.strip() if isinstance(k, str) else k
 
+@st.cache_resource(show_spinner=False)
 def _anthropic_client():
-    """Instantiate Anthropic client if a key is available; else None."""
     key = _get_anthropic_key()
     if not key:
-        return None
+        return None, None
     try:
         from anthropic import Anthropic
-        return Anthropic(api_key=key)
+        return Anthropic(api_key=key), key
     except Exception:
-        return None
+        return None, key
 
-# Optional: debug visibility check (safe to remove later)
-st.caption(f"Secrets sections: {list(getattr(st, 'secrets', {}).keys())}")
-st.caption(f"Key visible to app: {bool(_get_anthropic_key())}")
+def _mask_key(k: str | None) -> str:
+    if not k:
+        return "None"
+    k = k.strip()
+    if len(k) <= 10:
+        return f"{k[:4]}…"
+    return f"{k[:10]}…{k[-4:]}"
+
+# Optional debug (remove later if you like)
+sec_sections = list(getattr(st, "secrets", {}).keys())
+client_probe, raw_key = _anthropic_client()
+st.caption(f"Secrets sections: {sec_sections}")
+st.caption(f"Key visible to app: {bool(raw_key)} (prefix: {_mask_key(raw_key)})")
 
 # ----------------------- LLM Executive Summary -----------------------
 def llm_exec_summary(fdf: pd.DataFrame, fy_sel, entity_sel, dept_sel) -> str | None:
-    client = _anthropic_client()
+    client, key = _anthropic_client()
     if not client:
         return None
 
-    # Compact, model-friendly table
+    # Compact table for model
     tbl = (
         fdf.groupby(["Department", "Category", "DataType"])["Amount"]
         .sum().reset_index()
         .pivot_table(
-            index=["Department", "Category"],
-            columns="DataType",
-            values="Amount",
-            fill_value=0.0,
-            aggfunc="sum",
+            index=["Department", "Category"], columns="DataType",
+            values="Amount", fill_value=0.0, aggfunc="sum",
         )
         .reset_index()
     )
@@ -108,19 +123,39 @@ def llm_exec_summary(fdf: pd.DataFrame, fy_sel, entity_sel, dept_sel) -> str | N
         "Write 3–5 bullets: overall up/down vs budget, top drivers (by £), and one crisp recommendation."
     )
     user_prompt = (
-        f"Filters → FY: {', '.join(map(str, fy_sel))} | Entity: {', '.join(entity_sel)} | Departments: {', '.join(dept_sel)}\n"
+        f"Filters → FY: {', '.join(map(str, fy_sel))} | Entity: {', '.join(entity_sel)} | "
+        f"Departments: {', '.join(dept_sel)}\n"
         f"Table (Department, Category with Actual/Budget):\n{table_txt}\n"
         "Now generate the executive summary."
     )
 
-    resp = client.messages.create(
-        model="claude-3-5-sonnet-latest",
-        max_tokens=300,
-        temperature=0.2,
-        system=sys_prompt,
-        messages=[{"role": "user", "content": user_prompt}],
-    )
-    return resp.content[0].text.strip()
+    # Call Anthropic with robust error handling
+    try:
+        resp = client.messages.create(
+            model="claude-3-5-sonnet-latest",
+            max_tokens=300,
+            temperature=0.2,
+            system=sys_prompt,
+            messages=[{"role": "user", "content": user_prompt}],
+        )
+        return resp.content[0].text.strip()
+    except Exception as e:
+        import anthropic as _anth
+        # Specific handling for common auth failure
+        if isinstance(e, _anth.AuthenticationError):
+            st.warning(
+                "Anthropic authentication failed. Falling back to local commentary.\n\n"
+                f"- Key prefix seen by app: `{_mask_key(key)}`\n"
+                "- Check the key is an Anthropic Console API key (starts with `sk-ant-`), has no quotes/spaces, "
+                "and hasn’t been revoked. After saving Secrets, restart the app."
+            )
+            return None
+        # Any other SDK/API errors
+        st.warning(
+            "Anthropic call failed (temporary or model/SDK issue). Showing local commentary instead.\n"
+            f"Details: `{type(e).__name__}`"
+        )
+        return None
 
 # ----------------------- UI -----------------------
 df = load_data()
@@ -147,9 +182,9 @@ llm_text = llm_exec_summary(fdf, fy_sel, entity_sel, dept_sel)
 if llm_text:
     st.markdown(llm_text)
 else:
-    st.info("Anthropic key not found; showing fast local commentary.")
+    st.info("Anthropic key not found or not accepted; showing fast local commentary.")
     st.markdown(render_local_summary(fdf))
-    st.caption("Local fast commentary. Add an Anthropic key in Secrets to enable LLM output.")
+    st.caption("Local fast commentary. Add a valid Anthropic key in Secrets to enable LLM output.")
 
 # ----------------------- Ask the data (beta) -----------------------
 st.divider()
@@ -186,19 +221,21 @@ if q:
 
     filters_txt = f"Filters → FY: {', '.join(map(str, fy_sel))} | Entity: {', '.join(entity_sel)} | Departments: {', '.join(dept_sel)}"
     kpi_rule = "KPI rule: OPI = Revenue – Cost of Sales – Direct – Indirect (GBP)."
-    user_prompt = (
-        "You are an FP&A analytics assistant. Answer directly using only the table below.\n"
-        f"{kpi_rule}\n"
-        "Write at most 3–5 bullets, numeric, and finish with one crisp recommendation.\n\n"
-        f"{filters_txt}\n"
-        "Table (Department, Category with KPI columns):\n"
-        f"{tbl_txt}\n\n"
-        f"Question: {q}\n"
-        "Be concise, numeric, and never invent data that is not present in the table."
-    )
+    user_prompt = textwrap.dedent(f"""
+        You are an FP&A analytics assistant. Answer directly using only the table below.
+        {kpi_rule}
+        Write at most 3–5 bullets, numeric, and finish with one crisp recommendation.
+
+        {filters_txt}
+        Table (Department, Category with KPI columns):
+        {tbl_txt}
+
+        Question: {q}
+        Be concise, numeric, and never invent data that is not present in the table.
+    """).strip()
 
     answer_md = None
-    client = _anthropic_client()
+    client, _key = _anthropic_client()
     try:
         if client:
             resp = client.messages.create(
@@ -211,16 +248,23 @@ if q:
             answer_md = resp.content[0].text.strip()
         else:
             answer_md = (
-                "_AI chat is disabled (no Anthropic key in Secrets). "
+                "_AI chat is disabled (no valid Anthropic key). "
                 "Add one in Streamlit Cloud to enable this assistant._"
             )
     except Exception as e:
-        answer_md = (
-            f"_Chat unavailable right now ({type(e).__name__}). Showing table-driven context only._\n\n"
-            f"**Context summary (local):**\n"
-            f"- Departments included: {', '.join(sorted(fdf['Department'].dropna().unique().tolist()))}\n"
-            f"- Rows shown: {len(tbl)}"
-        )
+        import anthropic as _anth
+        if isinstance(e, _anth.AuthenticationError):
+            answer_md = (
+                "_AI chat is disabled (Anthropic authentication failed). "
+                "Using local context instead._"
+            )
+        else:
+            answer_md = (
+                f"_Chat unavailable right now ({type(e).__name__}). Showing table-driven context only._\n\n"
+                f"**Context summary (local):**\n"
+                f"- Departments included: {', '.join(sorted(fdf['Department'].dropna().unique().tolist()))}\n"
+                f"- Rows shown: {len(tbl)}"
+            )
 
     st.session_state.chat.append(("assistant", answer_md))
     with st.chat_message("assistant"):
