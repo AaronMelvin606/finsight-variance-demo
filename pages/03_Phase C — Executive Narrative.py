@@ -132,7 +132,7 @@ def llm_exec_summary(fdf: pd.DataFrame, fy_sel, entity_sel, dept_sel) -> str | N
     # Call Anthropic with robust error handling
     try:
         resp = client.messages.create(
-            model="claude-3-5-sonnet-latest",
+            model="claude-3-5-sonnet-20241022",
             max_tokens=300,
             temperature=0.2,
             system=sys_prompt,
@@ -239,7 +239,7 @@ if q:
     try:
         if client:
             resp = client.messages.create(
-                model="claude-3-5-sonnet-latest",
+                model="claude-3-5-sonnet-20241022",
                 max_tokens=400,
                 temperature=0.2,
                 system="You are a precise FP&A assistant. Only use numbers from the provided table.",
