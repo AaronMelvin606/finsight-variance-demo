@@ -51,38 +51,29 @@ def render_local_summary(df: pd.DataFrame) -> str:
 
 # ----------------------- Anthropic client helpers -----------------------
 def _get_anthropic_key() -> str | None:
-    # Works with any of:
-    #   [anthropic].ANTHROPIC_API_KEY
-    #   [anthropic].api_key
-    #   ANTHROPIC_API_KEY (top-level)
-    sec = getattr(st, "secrets", {})
-    if isinstance(sec, dict):
-        sect = sec.get("anthropic")
-        if isinstance(sect, dict):
-            return sect.get("ANTHROPIC_API_KEY") or sect.get("api_key")
-        # top-level
-        k = sec.get("ANTHROPIC_API_KEY") or sec.get("anthropic_api_key")
-        if k:
-            return k
-    # env fallback for local dev
+    """Read from Streamlit Secrets (sectioned or top-level), else env."""
+    try:
+        # Check [anthropic] section
+        if "anthropic" in st.secrets:
+            sect = st.secrets["anthropic"]
+            if "ANTHROPIC_API_KEY" in sect:
+                return sect["ANTHROPIC_API_KEY"]
+            if "api_key" in sect:
+                return sect["api_key"]
+        # Check top-level keys
+        if "ANTHROPIC_API_KEY" in st.secrets:
+            return st.secrets["ANTHROPIC_API_KEY"]
+        if "anthropic_api_key" in st.secrets:
+            return st.secrets["anthropic_api_key"]
+    except Exception:
+        pass
+    # Fallback for local environment variable
     return os.environ.get("ANTHROPIC_API_KEY")
 
-def _anthropic_client():
-    key = _get_anthropic_key()
-    if not key:
-        return None
-    try:
-        from anthropic import Anthropic
-        return Anthropic(api_key=key)
-    except Exception:
-        return None
 
-# --- TEMP: verify the key is visible to the app (remove once confirmed True) ---
-try:
-    _visible = bool(_get_anthropic_key())
-except Exception:
-    _visible = False
-st.caption(f"Key visible to app: {_visible}")
+# Optional: debug visibility check (you can remove after verifying)
+st.caption(f"Secrets sections: {list(getattr(st, 'secrets', {}).keys())}")
+st.caption(f"Key visible to app: {bool(_get_anthropic_key())}")
 
 # ----------------------- LLM Executive Summary -----------------------
 def llm_exec_summary(fdf: pd.DataFrame, fy_sel, entity_sel, dept_sel) -> str | None:
